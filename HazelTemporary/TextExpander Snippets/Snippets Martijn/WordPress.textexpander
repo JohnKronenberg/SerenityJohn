@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>groupInfo</key>
+	<dict>
+		<key>expandAfterMode</key>
+		<integer>0</integer>
+		<key>groupName</key>
+		<string>WordPress</string>
+	</dict>
+	<key>snippetsTE2</key>
+	<array>
+		<dict>
+			<key>abbreviation</key>
+			<string></string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2012-06-22T07:05:32Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string></string>
+			<key>modificationDate</key>
+			<date>2012-06-22T07:05:47Z</date>
+			<key>plainText</key>
+			<string>%fillpopup:name=popup 1:option 1:option 2:default=option 3:option 4:option 5%</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>837002C8-6E0F-4874-B5EE-FEBBA7AF75D1</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>clearposts</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2010-09-13T13:45:26Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>Clear WP Posts</string>
+			<key>lastUsed</key>
+			<date>2010-09-14T13:54:48Z</date>
+			<key>modificationDate</key>
+			<date>2010-09-14T14:31:41Z</date>
+			<key>plainText</key>
+			<string>-- delete all posts, including revisions of posts
+CREATE TEMPORARY TABLE tmp_posts
+SELECT p.ID
+FROM wp_posts p
+LEFT JOIN wp_posts parent ON p.post_parent = parent.ID
+WHERE 
+  p.post_type = 'post' 
+  OR (SELECT posts_sub.post_type FROM wp_posts posts_sub WHERE posts_sub.ID = parent.ID) = 'post';
+
+DELETE FROM wp_posts WHERE ID IN(SELECT p.ID FROM tmp_posts p);
+
+-- delete 'ghost' postmeta
+DELETE FROM wp_postmeta
+WHERE post_ID NOT IN(SELECT p.ID FROM wp_posts p);
+
+-- delete 'ghost' comments
+DELETE FROM wp_comments
+WHERE comment_post_ID NOT IN(SELECT p.ID FROM wp_posts p);
+
+-- delete 'ghost' commentmeta
+DELETE FROM wp_commentmeta
+WHERE comment_ID NOT IN(SELECT c.comment_ID FROM wp_comments c);</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>4</integer>
+			<key>uuidString</key>
+			<string>E05059D0-D342-4A64-9B2A-ADE287A8A216</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>moretag</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2014-12-11T22:37:53Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string></string>
+			<key>lastUsed</key>
+			<date>2014-12-11T22:37:56Z</date>
+			<key>modificationDate</key>
+			<date>2014-12-11T22:37:53Z</date>
+			<key>plainText</key>
+			<string>&lt;!--more--&gt;
+</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>BFA12A4B-0305-4F9A-AD77-7C6E69C650F8</string>
+		</dict>
+	</array>
+</dict>
+</plist>

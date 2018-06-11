@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>groupInfo</key>
+	<dict>
+		<key>expandAfterMode</key>
+		<integer>0</integer>
+		<key>groupName</key>
+		<string>Random</string>
+	</dict>
+	<key>snippetsTE2</key>
+	<array>
+		<dict>
+			<key>abbreviation</key>
+			<string>$lipsum$</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2009-06-05T14:40:19Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>Lorem ipsum</string>
+			<key>lastUsed</key>
+			<date>2015-02-07T17:00:40Z</date>
+			<key>modificationDate</key>
+			<date>2009-06-05T14:40:25Z</date>
+			<key>plainText</key>
+			<string>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque mattis convallis velit, ut ullamcorper nibh porta ut. Vestibulum elementum erat vitae quam mattis convallis. Nullam pellentesque tempor orci egestas fermentum. Vivamus aliquam dui et erat scelerisque in hendrerit ipsum tempus. Nullam ullamcorper risus vitae augue lacinia congue. Nam ut arcu vehicula nulla gravida porta quis in lorem. Vivamus odio turpis, semper sed posuere et, mollis at sapien. Nulla quam dui, tincidunt vitae pulvinar sed, sollicitudin ut velit. Aliquam interdum laoreet sem aliquam posuere. Duis ac ante ipsum. Nulla vel magna sapien. Nam ac sapien vitae justo vulputate facilisis sed quis tortor. Praesent sit amet massa dolor. Proin sagittis magna aliquet neque ornare facilisis.
+
+Aenean sagittis, erat et tincidunt convallis, dolor diam malesuada erat, ac aliquam felis lorem vitae odio. Aenean facilisis, urna a imperdiet malesuada, justo diam hendrerit nisi, at hendrerit odio odio ut metus. Phasellus ornare hendrerit lorem ac suscipit. Aliquam tempus, purus quis varius condimentum, tortor erat luctus purus, non ornare nisi nisl non diam. Vivamus eget nulla sed augue facilisis ullamcorper at et dolor. Morbi urna augue, volutpat sit amet lacinia vitae, consequat eu massa. Nulla et libero vel quam lacinia consectetur. Sed ut dolor eros. Ut quis mauris velit, sit amet porta augue. Nulla porttitor convallis egestas. Etiam nec mi scelerisque sem vehicula accumsan. Vivamus bibendum placerat tortor aliquet vestibulum. Etiam id dui in tortor consequat tempus eget nec erat. Duis id est eget nisi imperdiet congue vel sit amet lectus. Suspendisse in dignissim eros. Maecenas in massa elit. Fusce nec orci lectus.
+
+Vivamus et mi risus, vitae imperdiet arcu. Suspendisse pretium, tortor vel luctus porttitor, eros urna malesuada leo, sed dictum elit nisi eu nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer imperdiet laoreet interdum. Praesent condimentum tristique erat at tincidunt. Morbi elementum bibendum lacus. Cras odio lectus, ornare quis dictum vel, scelerisque ac neque. Duis vitae libero at massa facilisis lacinia at consequat dolor. Suspendisse tincidunt viverra interdum. Donec a neque sapien, ut tincidunt nulla. Pellentesque quam lectus, luctus scelerisque ullamcorper sit amet, vehicula a nibh.
+
+Nullam eu erat dolor. Vestibulum urna mi, vestibulum at posuere non, faucibus vel erat. Curabitur lacus diam, dapibus quis pellentesque vel, aliquam sit amet mi. Donec ante risus, consectetur sit amet dignissim nec, ullamcorper ac nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi sem nisl, tempor et pulvinar quis, sollicitudin at quam. Suspendisse facilisis est ac justo interdum hendrerit. Suspendisse nec vulputate nisi. Suspendisse at elementum nisi. Nam elit lorem, egestas vitae accumsan ut, porta non nisi. Sed convallis pretium ornare. Sed fringilla, velit in lacinia tristique, erat lectus lobortis lectus, et pretium tellus magna eu mauris. Aliquam erat volutpat. Vestibulum eget urna massa. Praesent sit amet elit metus.
+
+Mauris id nulla at metus ornare commodo ac quis dui. Proin a sem magna. Phasellus ornare aliquam ipsum vel eleifend. Proin vel posuere tortor. Suspendisse massa leo, lacinia lacinia consectetur quis, mollis at odio. Morbi eu metus vitae orci dictum imperdiet. Sed vestibulum mi eu nisl posuere scelerisque. Sed magna felis, ullamcorper vitae condimentum eu, imperdiet dignissim arcu. Ut non tincidunt nisi. Donec fermentum pretium sagittis.
+</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>62</integer>
+			<key>uuidString</key>
+			<string>0BFFD0AB-D9AF-49F3-9E97-693598CCA977</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>fpan</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2009-10-03T10:18:30Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string></string>
+			<key>lastUsed</key>
+			<date>2009-10-03T10:19:10Z</date>
+			<key>modificationDate</key>
+			<date>2009-10-03T10:18:36Z</date>
+			<key>plainText</key>
+			<string>fri[e]tuurpan</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>2</integer>
+			<key>uuidString</key>
+			<string>4EBD198A-0066-4EF5-B471-06E98AB487D2</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>tbbt</string>
+			<key>abbreviationMode</key>
+			<integer>2</integer>
+			<key>creationDate</key>
+			<date>2008-12-16T20:45:52Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string></string>
+			<key>lastUsed</key>
+			<date>2015-01-25T21:39:31Z</date>
+			<key>modificationDate</key>
+			<date>2014-12-03T14:23:19Z</date>
+			<key>plainText</key>
+			<string>the big bang theory</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>18</integer>
+			<key>uuidString</key>
+			<string>9C354830-1292-42E4-8DD2-C858B76F55A7</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>vpsip</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2015-01-08T12:30:17Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string></string>
+			<key>lastUsed</key>
+			<date>2015-01-23T17:07:41Z</date>
+			<key>modificationDate</key>
+			<date>2015-01-08T12:30:17Z</date>
+			<key>plainText</key>
+			<string>149.210.187.7</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>11</integer>
+			<key>uuidString</key>
+			<string>121C9525-09E8-4CBA-A87A-B10DA2A86999</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>vps6</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2015-01-09T09:22:38Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string></string>
+			<key>modificationDate</key>
+			<date>2015-01-09T09:22:38Z</date>
+			<key>plainText</key>
+			<string>fe80::5054:ff:fe62:38af</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>491347ED-EE7C-4B28-B9E6-A7A4C4B61FE5</string>
+		</dict>
+	</array>
+</dict>
+</plist>

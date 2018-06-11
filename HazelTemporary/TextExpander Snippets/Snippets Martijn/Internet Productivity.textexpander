@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>groupInfo</key>
+	<dict>
+		<key>expandAfterMode</key>
+		<integer>0</integer>
+		<key>groupName</key>
+		<string>Internet Productivity</string>
+	</dict>
+	<key>snippetsTE2</key>
+	<array>
+		<dict>
+			<key>abbreviation</key>
+			<string>/bitly</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2008-10-27T21:12:34Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>Create bit.ly shortened URL</string>
+			<key>lastUsed</key>
+			<date>2013-07-12T07:46:09Z</date>
+			<key>modificationDate</key>
+			<date>2008-12-09T23:20:21Z</date>
+			<key>plainText</key>
+			<string>set the ClipURL to (the clipboard as string)
+
+	ignoring case
+		if ((characters 1 through 4 of ClipURL as string) is not "http") then
+			return "Malformed URL."
+		else
+  		set the EncodedClipURL to urlencode(ClipURL) of me
+			set curlCMD to ¬
+				"curl --stderr /dev/null \"http://bit.ly/api?url=" &amp; EncodedClipURL &amp; "\""
+
+			-- Run the script and get the result:
+			set tinyURL to (do shell script curlCMD)
+
+			return tinyURL
+		end if
+	end ignoring
+
+
+on urlencode(theText)
+	set theTextEnc to ""
+	repeat with eachChar in characters of theText
+		set useChar to eachChar
+		set eachCharNum to ASCII number of eachChar
+		if eachCharNum = 32 then
+			set useChar to "+"
+		else if (eachCharNum ≠ 42) and (eachCharNum ≠ 95) and (eachCharNum &lt; 45 or eachCharNum &gt; 46) and (eachCharNum &lt; 48 or eachCharNum &gt; 57) and (eachCharNum &lt; 65 or eachCharNum &gt; 90) and (eachCharNum &lt; 97 or eachCharNum &gt; 122) then
+			set firstDig to round (eachCharNum / 16) rounding down
+			set secondDig to eachCharNum mod 16
+			if firstDig &gt; 9 then
+				set aNum to firstDig + 55
+				set firstDig to ASCII character aNum
+			end if
+			if secondDig &gt; 9 then
+				set aNum to secondDig + 55
+				set secondDig to ASCII character aNum
+			end if
+			set numHex to ("%" &amp; (firstDig as string) &amp; (secondDig as string)) as string
+			set useChar to numHex
+		end if
+		set theTextEnc to theTextEnc &amp; useChar as string
+	end repeat
+	return theTextEnc
+end urlencode
+
+</string>
+			<key>snippetType</key>
+			<integer>2</integer>
+			<key>useCount</key>
+			<integer>66</integer>
+			<key>uuidString</key>
+			<string>32358B9F-DB40-4C8D-AA6F-0F7AE653EE1B</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>/digg</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2009-05-04T18:44:24Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>Create digg URL</string>
+			<key>lastUsed</key>
+			<date>2009-05-04T21:17:00Z</date>
+			<key>modificationDate</key>
+			<date>2009-05-04T18:46:57Z</date>
+			<key>plainText</key>
+			<string>-- Thanks to Stephen Dolenski
+set the ClipURL to (the clipboard as string) 
+ignoring case 
+if ((characters 1 through 4 of ClipURL as string) is not "http") then 
+return "Malformed URL." 
+else 
+set diggURL to ¬ 
+"http://digg.com/" &amp; ClipURL 
+return diggURL 
+end if 
+end ignoring
+
+on urlencode(theText)
+	set theTextEnc to ""
+	repeat with eachChar in characters of theText
+		set useChar to eachChar
+		set eachCharNum to ASCII number of eachChar
+		if eachCharNum = 32 then
+			set useChar to "+"
+		else if (eachCharNum ≠ 42) and (eachCharNum ≠ 95) and (eachCharNum &lt; 45 or eachCharNum &gt; 46) and (eachCharNum &lt; 48 or eachCharNum &gt; 57) and (eachCharNum &lt; 65 or eachCharNum &gt; 90) and (eachCharNum &lt; 97 or eachCharNum &gt; 122) then
+			set firstDig to round (eachCharNum / 16) rounding down
+			set secondDig to eachCharNum mod 16
+			if firstDig &gt; 9 then
+				set aNum to firstDig + 55
+				set firstDig to ASCII character aNum
+			end if
+			if secondDig &gt; 9 then
+				set aNum to secondDig + 55
+				set secondDig to ASCII character aNum
+			end if
+			set numHex to ("%%" &amp; (firstDig as string) &amp; (secondDig as string)) as string
+			set useChar to numHex
+		end if
+		set theTextEnc to theTextEnc &amp; useChar as string
+	end repeat
+	return theTextEnc
+end urlencode
+</string>
+			<key>snippetType</key>
+			<integer>2</integer>
+			<key>useCount</key>
+			<integer>4</integer>
+			<key>uuidString</key>
+			<string>D59B499D-CE31-4202-864B-38C1891924F6</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>/isgd</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2008-12-30T02:13:09Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>Create is.gd shortened URL</string>
+			<key>lastUsed</key>
+			<date>2009-01-15T17:48:34Z</date>
+			<key>modificationDate</key>
+			<date>2009-01-15T17:48:11Z</date>
+			<key>plainText</key>
+			<string># thx to David Smalley -&gt;  http://is.gd/b8Ak
+set the ClipURL to urlencode(the clipboard as string)
+
+set curlCMD to ¬
+	"curl --stderr /dev/null \"http://is.gd/create.php?longurl=" &amp; ClipURL &amp; "\""
+
+-- grep for tinyurl value
+set grepCMD to "| grep onselect"
+
+-- use awk to pull the url out of the retuned page, using " as a delimiter
+set awkCMD to "| awk -F'\"' '{print $8}'"
+
+-- build the command
+set shellCMD to curlCMD &amp; grepCMD &amp; awkCMD
+
+-- run the script and get the result
+do shell script shellCMD
+set isgdURL to the result
+
+return isgdURL
+
+on urlencode(theText)
+	set theTextEnc to ""
+	repeat with eachChar in characters of theText
+		set useChar to eachChar
+		set eachCharNum to ASCII number of eachChar
+		if eachCharNum = 32 then
+			set useChar to "+"
+		else if (eachCharNum ≠ 42) and (eachCharNum ≠ 95) and (eachCharNum &lt; 45 or eachCharNum &gt; 46) and (eachCharNum &lt; 48 or eachCharNum &gt; 57) and (eachCharNum &lt; 65 or eachCharNum &gt; 90) and (eachCharNum &lt; 97 or eachCharNum &gt; 122) then
+			set firstDig to round (eachCharNum / 16) rounding down
+			set secondDig to eachCharNum mod 16
+			if firstDig &gt; 9 then
+				set aNum to firstDig + 55
+				set firstDig to ASCII character aNum
+			end if
+			if secondDig &gt; 9 then
+				set aNum to secondDig + 55
+				set secondDig to ASCII character aNum
+			end if
+			set numHex to ("%" &amp; (firstDig as string) &amp; (secondDig as string)) as string
+			set useChar to numHex
+		end if
+		set theTextEnc to theTextEnc &amp; useChar as string
+	end repeat
+	return theTextEnc
+end urlencode
+</string>
+			<key>snippetType</key>
+			<integer>2</integer>
+			<key>useCount</key>
+			<integer>9</integer>
+			<key>uuidString</key>
+			<string>8E3AD40C-BA74-43FA-8445-0EE1FCE379D2</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>/testurl</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2009-05-04T19:00:27Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>Validate URL</string>
+			<key>lastUsed</key>
+			<date>2009-09-20T20:58:15Z</date>
+			<key>modificationDate</key>
+			<date>2009-05-07T16:07:04Z</date>
+			<key>plainText</key>
+			<string>set the ClipURL to (the clipboard as string)try	set scriptCmd to "curl -I -L -s \"" &amp; ClipURL &amp; "\" | grep -c \"^HTTP/[^ ]* 200\""	set scriptResult to do shell script scriptCmdon error	set scriptResult to ""end tryif scriptResult is equal to "1" then	return escapedURL(ClipURL)else	beep	return "XX " &amp; escapedURL (ClipURL)end if
+
+on escapedURL(theURL)
+	set resultURL to ""
+	repeat with eachChar in characters of theURL
+		set eachCharNum to ASCII number of eachChar
+		if eachCharNum = 37 then
+			set resultURL to resultURL &amp; "%%"
+		else
+			set resultURL to resultURL &amp; eachChar
+		end
+	end
+	return resultURL
+end
+</string>
+			<key>snippetType</key>
+			<integer>2</integer>
+			<key>useCount</key>
+			<integer>2</integer>
+			<key>uuidString</key>
+			<string>D0173C98-9117-4979-8C9D-646102E97415</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>/tinyurl</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2008-10-25T14:27:54Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>Create tinyurl shortened URL</string>
+			<key>lastUsed</key>
+			<date>2008-12-10T00:00:33Z</date>
+			<key>modificationDate</key>
+			<date>2008-10-27T21:50:31Z</date>
+			<key>plainText</key>
+			<string>set the ClipURL to (the clipboard as string)
+
+ignoring case
+	if ((characters 1 through 4 of ClipURL as string) is not "http") then
+		return "Malformed URL."
+	else
+		set curlCMD to ¬
+			"curl --stderr /dev/null \"http://tinyurl.com/api-create.php?url=" &amp; ClipURL &amp; "\""
+		
+		-- Run the script and get the result:
+		set tinyURL to (do shell script curlCMD)
+		
+		return tinyURL
+	end if
+end ignoring</string>
+			<key>snippetType</key>
+			<integer>2</integer>
+			<key>useCount</key>
+			<integer>4</integer>
+			<key>uuidString</key>
+			<string>A168B300-EF38-4F32-9D0D-7E6A2ACD7F47</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>/trim</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2008-10-19T02:08:36Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>Create tr.im shortened URL</string>
+			<key>lastUsed</key>
+			<date>2009-10-14T08:39:57Z</date>
+			<key>modificationDate</key>
+			<date>2008-12-09T23:59:52Z</date>
+			<key>plainText</key>
+			<string>set the ClipURL to urlencode(the clipboard as string)
+
+do shell script "curl --basic http://tr.im/api/trim_url.xml?url=" &amp; ClipURL &amp; " | tr '&gt;' '\n' | tr '&lt;' '\n' | grep -m 1 -A 1 url | tail -1"
+
+on urlencode(theText)
+	set theTextEnc to ""
+	repeat with eachChar in characters of theText
+		set useChar to eachChar
+		set eachCharNum to ASCII number of eachChar
+		if eachCharNum = 32 then
+			set useChar to "+"
+		else if (eachCharNum ≠ 42) and (eachCharNum ≠ 95) and (eachCharNum &lt; 45 or eachCharNum &gt; 46) and (eachCharNum &lt; 48 or eachCharNum &gt; 57) and (eachCharNum &lt; 65 or eachCharNum &gt; 90) and (eachCharNum &lt; 97 or eachCharNum &gt; 122) then
+			set firstDig to round (eachCharNum / 16) rounding down
+			set secondDig to eachCharNum mod 16
+			if firstDig &gt; 9 then
+				set aNum to firstDig + 55
+				set firstDig to ASCII character aNum
+			end if
+			if secondDig &gt; 9 then
+				set aNum to secondDig + 55
+				set secondDig to ASCII character aNum
+			end if
+			set numHex to ("%" &amp; (firstDig as string) &amp; (secondDig as string)) as string
+			set useChar to numHex
+		end if
+		set theTextEnc to theTextEnc &amp; useChar as string
+	end repeat
+	return theTextEnc
+end urlencode
+</string>
+			<key>snippetType</key>
+			<integer>2</integer>
+			<key>useCount</key>
+			<integer>2</integer>
+			<key>uuidString</key>
+			<string>85FBE641-51E5-475A-8E81-54494D5CC77F</string>
+		</dict>
+	</array>
+</dict>
+</plist>

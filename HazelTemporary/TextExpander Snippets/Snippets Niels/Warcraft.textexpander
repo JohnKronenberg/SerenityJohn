@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>groupInfo</key>
+	<dict>
+		<key>expandAfterMode</key>
+		<integer>0</integer>
+		<key>groupName</key>
+		<string>Warcraft</string>
+	</dict>
+	<key>snippetsTE2</key>
+	<array>
+		<dict>
+			<key>abbreviation</key>
+			<string>/w</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2010-06-18T21:41:22Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string></string>
+			<key>lastUsed</key>
+			<date>2011-07-16T21:29:48Z</date>
+			<key>modificationDate</key>
+			<date>2010-06-18T21:41:30Z</date>
+			<key>plainText</key>
+			<string>/w kootdinnie</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>4</integer>
+			<key>uuidString</key>
+			<string>7BA09E0F-95A0-4907-945B-2F487EACF11E</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>-bin</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2010-06-18T20:16:34Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string></string>
+			<key>lastUsed</key>
+			<date>2011-04-23T18:02:43Z</date>
+			<key>modificationDate</key>
+			<date>2010-06-18T20:16:56Z</date>
+			<key>plainText</key>
+			<string>-Binary lEJ9rArAkCF1R9</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>18</integer>
+			<key>uuidString</key>
+			<string>987EE537-D29F-4498-80C0-3178BFE79B0E</string>
+		</dict>
+	</array>
+</dict>
+</plist>

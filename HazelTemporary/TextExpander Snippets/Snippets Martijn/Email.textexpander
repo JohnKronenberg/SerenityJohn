@@ -1,0 +1,1434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>groupInfo</key>
+	<dict>
+		<key>expandAfterMode</key>
+		<integer>0</integer>
+		<key>groupName</key>
+		<string>Email</string>
+	</dict>
+	<key>snippetsTE2</key>
+	<array>
+		<dict>
+			<key>abbreviation</key>
+			<string>;niets</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2014-03-31T10:02:15Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string></string>
+			<key>lastUsed</key>
+			<date>2014-03-31T10:05:53Z</date>
+			<key>modificationDate</key>
+			<date>2014-03-31T10:04:35Z</date>
+			<key>plainText</key>
+			<string>Hi %filltext:name=Naam%,
+
+Ik heb het even snel gecheckt, en volgens mij heb je je aangemeld nadat je een artikel van mij las op Apple Coach%filltext:name=, over %. Klinkt dat bekend?
+
+En belangrijker: ook al komen de mails uit het niets voor je gevoel, vind je het wel fijn om ze te ontvangen? Anders kun je je natuurlijk afmelden, ik wil je niets sturen waar je niet op zit te wachten!
+
+- Martijn</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>2</integer>
+			<key>uuidString</key>
+			<string>20D21FF8-6220-4088-ABAB-2F6D9E040BF9</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>;gevonden</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2014-04-22T18:27:24Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string></string>
+			<key>lastUsed</key>
+			<date>2015-02-02T10:12:24Z</date>
+			<key>modificationDate</key>
+			<date>2014-04-22T18:27:24Z</date>
+			<key>plainText</key>
+			<string>Je weet misschien even niet meer wie ik ben, of waar ik vandaan kom. (Wow, dat klinkt eigenlijk zwaar zo.)
+
+Je hebt je aangemeld voor de nieuwsbrief, waarschijnlijk via de AppleCoach.nl website of misschien via AppleNieuwsbrief.nl. Klinkt dat enigszins bekend?
+
+In ieder geval: als je het niet fijn vindt dat ik je af en toe Apple tips mail, dan kunnen we dat ook eenvoudig oplossen. Onder elke tip die ik stuur staat een linkje: “Unsubscribe”. Vind je het niets, meld je je gewoon af.
+Vind je het wel leuk, ook al weet je niet meer hoe je bij me komt? Dan hoef je niets te doen. ;)</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>12</integer>
+			<key>uuidString</key>
+			<string>7874DC5B-F5B6-484D-85C7-09B1BFE7C1B5</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>hheadshot</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2014-05-08T19:23:58Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string></string>
+			<key>lastUsed</key>
+			<date>2015-03-03T12:34:27Z</date>
+			<key>modificationDate</key>
+			<date>2014-05-08T19:23:58Z</date>
+			<key>plainText</key>
+			<string>~/Dropbox/documenten/random/martijn-engler-ash-headshot.jpg</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>BAA4E676-8D2C-41EE-A6B7-F97BB32EA372</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>xsupport</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2014-04-22T18:07:32Z</date>
+			<key>extraInfo</key>
+			<dict>
+				<key>RTF</key>
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf1344\cocoasubrtf720
+{\fonttbl\f0\fswiss\fcharset0 ArialMT;\f1\fnil\fcharset0 LucidaGrande;}
+{\colortbl;\red255\green255\blue255;\red26\green26\blue26;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid1\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid1}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}}
+\deftab720
+\pard\pardeftab720\sa390
+
+\f0\fs26 \cf2 Hi %filltext:name=Naam?%,\
+Het is op zich natuurlijk logisch om met je Apple vragen naar de Apple Coach te gaan. Het zit al een beetje in de naam. ;)\
+Helaas krijg ik zo veel emails dat ik het gewoon niet meer aan kan om ze allemaal te beantwoorden\'85 Ik weet ook niet altijd elk specifiek ding, en vaak moeten we meer emails uitwisselen om bij de oorzaak te komen. Zo zou ik m\'92n dagen kunnen vullen met individuele email en heb ik geen tijd meer om duizenden Apple-gebruikers te helpen.\
+Maar ik wil je nu ook niet zo maar wegsturen zonder enig antwoord. Dus een paar tips:\
+\pard\tx220\tx720\pardeftab720\li720\fi-720
+\ls1\ilvl0\cf2 {\listtext	1.	}Misschien kan ik je vraag wel beantwoorden, en heb ik dat ook al gewoon gedaan. Dit kun je het snelst uitvinden met de zoekfunctie op {\field{\*\fldinst{HYPERLINK "https://applecoach.nl/"}}{\fldrslt AppleCoach.nl}}: typ rechtsboven een woord wat met je vraag te maken heeft en druk op Enter (
+\f1 \uc0\u8617 
+\f0 ).\
+{\listtext	2.	}Je vraag zou ook al in een Apple Superhelden module kunnen zitten! Check voor jouw vraag de pagina over de %fillpopup:name=Type?:iPhone:iPad:Mac% eens: https://applesuperhelden.nl/bestellen/%fillpopup:name=Type?:iPhone:iPad:Mac%.\
+{\listtext	3.	}Heb je nog garantie, misschien via AppleCare? Dan kun je Apple gewoon zelf bellen. Ook altijd een optie. Let wel op dat zij alleen directe Apple-vragen behandelen, geen software van derde partijen. (Op de iPhone bijvoorbeeld: wel iMessage, niet WhatsApp.)\
+{\listtext	4.	}Geen garantie meer, en het antwoord niet via Apple Coach of Apple Superhelden? Dan zijn er de Apple discussie-forums! Hier kun je (in het Engels, dat wel helaas) {\field{\*\fldinst{HYPERLINK "https://discussions.apple.com/static/apple/tutorial/ask.html"}}{\fldrslt je vraag stellen}}, waarna honderden (of duizenden) mensen deze kunnen lezen.\
+{\listtext	5.	}Liever iets in het Nederlands? Dan zijn er de forums van {\field{\*\fldinst{HYPERLINK "http://forum.iculture.nl/"}}{\fldrslt iCulture}}, {\field{\*\fldinst{HYPERLINK "http://www.onemorething.nl/community/topic/apple-consultancy/"}}{\fldrslt One More Thing}} en {\field{\*\fldinst{HYPERLINK "http://www.macfreak.nl/forums/"}}{\fldrslt MacFreak}}.\
+{\listtext	6.	}En als dat het allemaal niet oplost\'85 Is er natuurlijk altijd nog trouwe vriend \'93{\field{\*\fldinst{HYPERLINK "https://www.google.nl/"}}{\fldrslt Google}}\'94. Er is {\field{\*\fldinst{HYPERLINK "https://xkcd.com/627/"}}{\fldrslt een prachtige uitleg op xkcd}} die uitlegt hoe je daar mee zelf veel problemen kunt oplossen.\
+{\listtext	7.	}Kom je er met alle bovenstaande opties niet uit? Stuur me dan even een linkje naar \'e9\'e9n van je forum posts; waarschijnlijk heb je een interessante uitdaging en wil ik het in ieder geval wel even lezen. Misschien wel een nieuwsbrief aan besteden. ;)\
+\pard\pardeftab720
+\cf2 \
+\pard\pardeftab720\sa390
+\cf2 Veel succes met je probleem, ik hoop dat iets van bovenstaande je helpt!}</string>
+			</dict>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string></string>
+			<key>lastUsed</key>
+			<date>2014-05-22T20:26:55Z</date>
+			<key>modificationDate</key>
+			<date>2015-03-03T12:35:52Z</date>
+			<key>plainText</key>
+			<string>Hi %filltext:name=Naam?%,
+Het is op zich natuurlijk logisch om met je Apple vragen naar de Apple Coach te gaan. Het zit al een beetje in de naam. ;)
+Helaas krijg ik zo veel emails dat ik het gewoon niet meer aan kan om ze allemaal te beantwoorden… Ik weet ook niet altijd elk specifiek ding, en vaak moeten we meer emails uitwisselen om bij de oorzaak te komen. Zo zou ik m’n dagen kunnen vullen met individuele email en heb ik geen tijd meer om duizenden Apple-gebruikers te helpen.
+Maar ik wil je nu ook niet zo maar wegsturen zonder enig antwoord. Dus een paar tips:
+	1.	Misschien kan ik je vraag wel beantwoorden, en heb ik dat ook al gewoon gedaan. Dit kun je het snelst uitvinden met de zoekfunctie op AppleCoach.nl: typ rechtsboven een woord wat met je vraag te maken heeft en druk op Enter (↩).
+	2.	Je vraag zou ook al in een Apple Superhelden module kunnen zitten! Check voor jouw vraag de pagina over de %fillpopup:name=Type?:iPhone:iPad:Mac% eens: https://applesuperhelden.nl/bestellen/%fillpopup:name=Type?:iPhone:iPad:Mac%.
+	3.	Heb je nog garantie, misschien via AppleCare? Dan kun je Apple gewoon zelf bellen. Ook altijd een optie. Let wel op dat zij alleen directe Apple-vragen behandelen, geen software van derde partijen. (Op de iPhone bijvoorbeeld: wel iMessage, niet WhatsApp.)
+	4.	Geen garantie meer, en het antwoord niet via Apple Coach of Apple Superhelden? Dan zijn er de Apple discussie-forums! Hier kun je (in het Engels, dat wel helaas) je vraag stellen, waarna honderden (of duizenden) mensen deze kunnen lezen.
+	5.	Liever iets in het Nederlands? Dan zijn er de forums van iCulture, One More Thing en MacFreak.
+	6.	En als dat het allemaal niet oplost… Is er natuurlijk altijd nog trouwe vriend “Google”. Er is een prachtige uitleg op xkcd die uitlegt hoe je daar mee zelf veel problemen kunt oplossen.
+	7.	Kom je er met alle bovenstaande opties niet uit? Stuur me dan even een linkje naar één van je forum posts; waarschijnlijk heb je een interessante uitdaging en wil ik het in ieder geval wel even lezen. Misschien wel een nieuwsbrief aan besteden. ;)
+
+Veel succes met je probleem, ik hoop dat iets van bovenstaande je helpt!</string>
+			<key>richText</key>
+			<data>
+			BAtzdHJlYW10eXBlZIHoA4QBQISEhBJOU0F0dHJpYnV0ZWRTdHJp
+			bmcAhIQITlNPYmplY3QAhZKEhIQPTlNNdXRhYmxlU3RyaW5nAYSE
+			CE5TU3RyaW5nAZSEASuBeAhIaSAlZmlsbHRleHQ6bmFtZT1OYWFt
+			PyUsCkhldCBpcyBvcCB6aWNoIG5hdHV1cmxpamsgbG9naXNjaCBv
+			bSBtZXQgamUgQXBwbGUgdnJhZ2VuIG5hYXIgZGUgQXBwbGUgQ29h
+			Y2ggdGUgZ2Fhbi4gSGV0IHppdCBhbCBlZW4gYmVldGplIGluIGRl
+			IG5hYW0uIDspCkhlbGFhcyBrcmlqZyBpayB6byB2ZWVsIGVtYWls
+			cyBkYXQgaWsgaGV0IGdld29vbiBuaWV0IG1lZXIgYWFuIGthbiBv
+			bSB6ZSBhbGxlbWFhbCB0ZSBiZWFudHdvb3JkZW7igKYgSWsgd2Vl
+			dCBvb2sgbmlldCBhbHRpamQgZWxrIHNwZWNpZmllayBkaW5nLCBl
+			biB2YWFrIG1vZXRlbiB3ZSBtZWVyIGVtYWlscyB1aXR3aXNzZWxl
+			biBvbSBiaWogZGUgb29yemFhayB0ZSBrb21lbi4gWm8gem91IGlr
+			IG3igJluIGRhZ2VuIGt1bm5lbiB2dWxsZW4gbWV0IGluZGl2aWR1
+			ZWxlIGVtYWlsIGVuIGhlYiBpayBnZWVuIHRpamQgbWVlciBvbSBk
+			dWl6ZW5kZW4gQXBwbGUtZ2VicnVpa2VycyB0ZSBoZWxwZW4uCk1h
+			YXIgaWsgd2lsIGplIG51IG9vayBuaWV0IHpvIG1hYXIgd2Vnc3R1
+			cmVuIHpvbmRlciBlbmlnIGFudHdvb3JkLiBEdXMgZWVuIHBhYXIg
+			dGlwczoKCTEuCU1pc3NjaGllbiBrYW4gaWsgamUgdnJhYWcgd2Vs
+			IGJlYW50d29vcmRlbiwgZW4gaGViIGlrIGRhdCBvb2sgYWwgZ2V3
+			b29uIGdlZGFhbi4gRGl0IGt1biBqZSBoZXQgc25lbHN0IHVpdHZp
+			bmRlbiBtZXQgZGUgem9la2Z1bmN0aWUgb3AgQXBwbGVDb2FjaC5u
+			bDogdHlwIHJlY2h0c2JvdmVuIGVlbiB3b29yZCB3YXQgbWV0IGpl
+			IHZyYWFnIHRlIG1ha2VuIGhlZWZ0IGVuIGRydWsgb3AgRW50ZXIg
+			KOKGqSkuCgkyLglKZSB2cmFhZyB6b3Ugb29rIGFsIGluIGVlbiBB
+			cHBsZSBTdXBlcmhlbGRlbiBtb2R1bGUga3VubmVuIHppdHRlbiEg
+			Q2hlY2sgdm9vciBqb3V3IHZyYWFnIGRlIHBhZ2luYSBvdmVyIGRl
+			ICVmaWxscG9wdXA6bmFtZT1UeXBlPzppUGhvbmU6aVBhZDpNYWMl
+			IGVlbnM6IGh0dHBzOi8vYXBwbGVzdXBlcmhlbGRlbi5ubC9iZXN0
+			ZWxsZW4vJWZpbGxwb3B1cDpuYW1lPVR5cGU/OmlQaG9uZTppUGFk
+			Ok1hYyUuCgkzLglIZWIgamUgbm9nIGdhcmFudGllLCBtaXNzY2hp
+			ZW4gdmlhIEFwcGxlQ2FyZT8gRGFuIGt1biBqZSBBcHBsZSBnZXdv
+			b24gemVsZiBiZWxsZW4uIE9vayBhbHRpamQgZWVuIG9wdGllLiBM
+			ZXQgd2VsIG9wIGRhdCB6aWogYWxsZWVuIGRpcmVjdGUgQXBwbGUt
+			dnJhZ2VuIGJlaGFuZGVsZW4sIGdlZW4gc29mdHdhcmUgdmFuIGRl
+			cmRlIHBhcnRpamVuLiAoT3AgZGUgaVBob25lIGJpanZvb3JiZWVs
+			ZDogd2VsIGlNZXNzYWdlLCBuaWV0IFdoYXRzQXBwLikKCTQuCUdl
+			ZW4gZ2FyYW50aWUgbWVlciwgZW4gaGV0IGFudHdvb3JkIG5pZXQg
+			dmlhIEFwcGxlIENvYWNoIG9mIEFwcGxlIFN1cGVyaGVsZGVuPyBE
+			YW4gemlqbiBlciBkZSBBcHBsZSBkaXNjdXNzaWUtZm9ydW1zISBI
+			aWVyIGt1biBqZSAoaW4gaGV0IEVuZ2VscywgZGF0IHdlbCBoZWxh
+			YXMpIGplIHZyYWFnIHN0ZWxsZW4sIHdhYXJuYSBob25kZXJkZW4g
+			KG9mIGR1aXplbmRlbikgbWVuc2VuIGRlemUga3VubmVuIGxlemVu
+			LgoJNS4JTGlldmVyIGlldHMgaW4gaGV0IE5lZGVybGFuZHM/IERh
+			biB6aWpuIGVyIGRlIGZvcnVtcyB2YW4gaUN1bHR1cmUsIE9uZSBN
+			b3JlIFRoaW5nIGVuIE1hY0ZyZWFrLgoJNi4JRW4gYWxzIGRhdCBo
+			ZXQgYWxsZW1hYWwgbmlldCBvcGxvc3TigKYgSXMgZXIgbmF0dXVy
+			bGlqayBhbHRpamQgbm9nIHRyb3V3ZSB2cmllbmQg4oCcR29vZ2xl
+			4oCdLiBFciBpcyBlZW4gcHJhY2h0aWdlIHVpdGxlZyBvcCB4a2Nk
+			IGRpZSB1aXRsZWd0IGhvZSBqZSBkYWFyIG1lZSB6ZWxmIHZlZWwg
+			cHJvYmxlbWVuIGt1bnQgb3Bsb3NzZW4uCgk3LglLb20gamUgZXIg
+			bWV0IGFsbGUgYm92ZW5zdGFhbmRlIG9wdGllcyBuaWV0IHVpdD8g
+			U3R1dXIgbWUgZGFuIGV2ZW4gZWVuIGxpbmtqZSBuYWFyIMOpw6lu
+			IHZhbiBqZSBmb3J1bSBwb3N0czsgd2FhcnNjaGlqbmxpamsgaGVi
+			IGplIGVlbiBpbnRlcmVzc2FudGUgdWl0ZGFnaW5nIGVuIHdpbCBp
+			ayBoZXQgaW4gaWVkZXIgZ2V2YWwgd2VsIGV2ZW4gbGV6ZW4uIE1p
+			c3NjaGllbiB3ZWwgZWVuIG5pZXV3c2JyaWVmIGFhbiBiZXN0ZWRl
+			bi4gOykKClZlZWwgc3VjY2VzIG1ldCBqZSBwcm9ibGVlbSwgaWsg
+			aG9vcCBkYXQgaWV0cyB2YW4gYm92ZW5zdGFhbmRlIGplIGhlbHB0
+			IYaEAmlJAYE6ApKEhIQMTlNEaWN0aW9uYXJ5AJSEAWkDkoSXlwdO
+			U0NvbG9yhpKEhIQHTlNDb2xvcgCUhAFjAYQEZmZmZoPR0NA9g9HQ
+			0D2D0dDQPQGGkoSXlxBOU1BhcmFncmFwaFN0eWxlhpKEhIQQTlNQ
+			YXJhZ3JhcGhTdHlsZQCUhARDQ0BTAACEhIQHTlNBcnJheQCUmgCG
+			gQIKhARbM2ZdgwAAnEEkg83MTD2GkoSXlwZOU0ZvbnSGkoSEhAZO
+			U0ZvbnQelJoYhAVbMjRjXQYAAAAQAAAA//5BAHIAaQBhAGwATQBU
+			AIQBZg2cAJwBnACcAIaGmAKBigCShJmaA5KakpuSnZKEn58AAISh
+			mgKShISECU5TVGV4dFRhYgCUhAJDZgALhpKEqaYAJIaGgQQKoSQk
+			g83MTD2GkqKSo4aYAw2ShJmaBJKdkoSfnwAAhKGaApKokqqGgQQK
+			oSQkg83MTD2GkoSXlwZOU0xpbmuGkoSEhAVOU1VSTACUnACShJeX
+			Fmh0dHBzOi8vYXBwbGVjb2FjaC5ubC+GhpKikqOSmpKbhpgCTpgE
+			AZKEmZoDkpqSm5KdkqySopKEpJokhAVbMzZjXQYAAAAaAAAA//5M
+			AHUAYwBpAGQAYQBHAHIAYQBuAGQAZQAAAKQNnACcAZwAnACGhpgC
+			gZcCmAUQkoSZmgSSnZKskq6ShLCcAJKEl5c8aHR0cHM6Ly9kaXNj
+			dXNzaW9ucy5hcHBsZS5jb20vc3RhdGljL2FwcGxlL3R1dG9yaWFs
+			L2Fzay5odG1shoaSopKjkpqSm4aYAnmYBgiShJmaBJKdkqySrpKE
+			sJwAkoSXlxlodHRwOi8vZm9ydW0uaWN1bHR1cmUubmwvhoaSopKj
+			kpqSm4aYAgKYBw6ShJmaBJKdkqySrpKEsJwAkoSXlz1odHRwOi8v
+			d3d3Lm9uZW1vcmV0aGluZy5ubC9jb21tdW5pdHkvdG9waWMvYXBw
+			bGUtY29uc3VsdGFuY3kvhoaSopKjkpqSm4aYAgSYCAiShJmaBJKd
+			kqySrpKEsJwAkoSXlx5odHRwOi8vd3d3Lm1hY2ZyZWFrLm5sL2Zv
+			cnVtcy+GhpKikqOSmpKbhpgCVpgJBpKEmZoEkp2SrJKukoSwnACS
+			hJeXFmh0dHBzOi8vd3d3Lmdvb2dsZS5ubC+GhpKikqOSmpKbhpgC
+			CZgKHJKEmZoEkp2SrJKukoSwnACShJeXFWh0dHBzOi8veGtjZC5j
+			b20vNjI3L4aGkqKSo5KakpuGmAKBPAGYCwGShJmaA5KakpuSnZKE
+			n58AAKCBAAqEBFsyZl0kg83MTD2GkqKSo4aYAUiG
+			</data>
+			<key>snippetType</key>
+			<integer>1</integer>
+			<key>useCount</key>
+			<integer>1</integer>
+			<key>uuidString</key>
+			<string>8CE9837F-6C22-44A2-8561-E974B5B8FA80</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>bvjm</string>
+			<key>abbreviationMode</key>
+			<integer>2</integer>
+			<key>creationDate</key>
+			<date>2013-05-07T20:21:08Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string></string>
+			<key>lastUsed</key>
+			<date>2015-02-20T14:28:21Z</date>
+			<key>modificationDate</key>
+			<date>2013-12-10T19:06:59Z</date>
+			<key>plainText</key>
+			<string>bedankt voor je mail!</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>60</integer>
+			<key>uuidString</key>
+			<string>8EFE4D26-B8DD-42A3-B3DE-6839F22931FD</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>gawaff</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2014-07-21T11:51:22Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string></string>
+			<key>modificationDate</key>
+			<date>2014-07-22T08:08:50Z</date>
+			<key>plainText</key>
+			<string>Hi %filltext:name=Voornaam%,
+
+Je hebt je een paar dagen geleden aangemeld als Geest als Water partner. Nu kon ik je naam niet direct plaatsen, en Niels ook niet, dus stuur ik je gewoon even een mailtje. Enne hoi, ik ben Martijn! :-)
+
+Wat ik graag van je zou weten: hoe, waar en naar wie ga jij Geest als Water promoten?
+
+En, nog belangrijker: wat kunnen wij doen om je daar bij te helpen?
+
+- Martijn
+
+P.s. Vergeet ook niet even naar de voorbeeld-teksten te kijken, die helpen je vast op weg. :)</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>E69984DA-8008-4D25-8FEB-15E7A4BDDFD6</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>;fd</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2012-12-20T23:13:08Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string></string>
+			<key>lastUsed</key>
+			<date>2014-11-01T16:55:17Z</date>
+			<key>modificationDate</key>
+			<date>2012-12-20T23:13:13Z</date>
+			<key>plainText</key>
+			<string>Fijne feestdagen! :)</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>1</integer>
+			<key>uuidString</key>
+			<string>A9D3F9F9-C90A-43A6-A75C-A712D2EC0D4A</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>;ontmoeten</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2012-11-21T11:07:30Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string></string>
+			<key>lastUsed</key>
+			<date>2013-02-28T17:53:19Z</date>
+			<key>modificationDate</key>
+			<date>2012-11-21T11:17:53Z</date>
+			<key>plainText</key>
+			<string>Leuk je zo "digitaal te ontmoeten"! </string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>4</integer>
+			<key>uuidString</key>
+			<string>0A517A8D-6A64-4D73-A192-E8CCE7ABE92E</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>;geholpen</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2011-12-05T11:39:39Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string></string>
+			<key>lastUsed</key>
+			<date>2015-02-12T14:58:20Z</date>
+			<key>modificationDate</key>
+			<date>2011-12-05T11:41:38Z</date>
+			<key>plainText</key>
+			<string>#!/usr/bin/env python
+
+import random, sys
+
+# define our list of candidate snippets
+s = ["Ben je zo geholpen?","Kun je zo verder?"]
+
+# select one at random and write it to STDOUT
+sys.stdout.write(random.choice(s))</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>useCount</key>
+			<integer>42</integer>
+			<key>uuidString</key>
+			<string>982CCE6E-E836-4635-9FB9-F7FA8FDFB95A</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>sfi</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2010-10-12T07:39:29Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string></string>
+			<key>lastUsed</key>
+			<date>2014-12-22T19:03:15Z</date>
+			<key>modificationDate</key>
+			<date>2010-10-19T11:30:30Z</date>
+			<key>plainText</key>
+			<string>Sent from my iPhone</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>4</integer>
+			<key>uuidString</key>
+			<string>268B2798-5508-404F-A69F-AFDE7129DFC3</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>@emf</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2009-11-10T21:33:15Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>Mail verwijderd</string>
+			<key>lastUsed</key>
+			<date>2009-11-10T22:15:34Z</date>
+			<key>modificationDate</key>
+			<date>2014-08-03T20:30:30Z</date>
+			<key>plainText</key>
+			<string>Lieve lezer,
+
+Dit is een semi-automatisch bericht, wat ik als standaard antwoord stuur als ik je mail niet lees en je daar van op de hoogte wil stellen.
+
+In het kort: lees http://bit.ly/49YGwP en probeer het dan nog eens.
+
+Mogelijk was je onduidelijk, had deze mail geen onderwerp of haalde je te veel losse punten aan in één email.
+Als je het opnieuw wilt proberen raad ik je aan het volgende artikel te lezen: http://bit.ly/49YGwP
+
+Na het lezen van dat artikel, en het toepassen van de genoemde tips, kun je proberen me opnieuw te mailen en ga ik je mail opnieuw bekijken.
+Moest je me niet meer willen mailen na het lezen van deze reactie is dat ook prima. Ik denk dat wij dan toch niet fijn kunnen communiceren via email.
+
+Groetjes,
+
+
+Martijn</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>3</integer>
+			<key>uuidString</key>
+			<string>6EC3D57C-EA56-4A39-9BC5-5E6317251DE6</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>xtelaat</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2014-08-06T20:28:08Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string></string>
+			<key>modificationDate</key>
+			<date>2014-08-06T20:28:08Z</date>
+			<key>plainText</key>
+			<string>Ik ging net even door de bestellingen heen, en zag die van jou er bij staan. Niet meer tegen de actieprijs, want de kortingscode was toen al gedeactiveerd.
+
+Gewoon even heel eerlijk tussen ons: ik vermoed dat je op tijd op de bestelpagina was, maar gewoon het formulier niet op tijd ingevuld had. Klopt dat? Dan crediteer ik de korting alsnog bij je, en krijg je 'm tegen de actieprijs.
+
+Ik ga hier uit van eerlijkheid, omdat ik mensen graag vertrouw. :)</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>637F4B41-2588-4604-8362-6D313E9CBA9A</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>geenbetaling</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2013-05-08T20:54:32Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string></string>
+			<key>lastUsed</key>
+			<date>2013-05-08T20:54:44Z</date>
+			<key>modificationDate</key>
+			<date>2013-05-08T20:54:32Z</date>
+			<key>plainText</key>
+			<string>Je betaling is nog niet helemaal verwerkt, vandaar dat je nog geen gegevens hebt ontvangen.
+Heb je betaald met iDEAL of PayPal? Dan zou het elk moment kunnen gebeuren.
+
+Betaald via gewone overboeking? Kun je dan even een screenshot sturen van je overboeking, dan activeer ik je handmatig.
+</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>A7A24B21-3A53-4E14-8D61-BAC385C111E3</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>;cursus</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2013-02-16T20:01:01Z</date>
+			<key>extraInfo</key>
+			<dict>
+				<key>RTF</key>
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+\cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;\red16\green60\blue192;\red26\green26\blue26;}
+\deftab720
+\pard\pardeftab720
+
+\f0\fs26 \cf0 ik heb zelf een cursus gemaakt,\'a0{\field{\*\fldinst{HYPERLINK "http://macsuperhelden.nl/?kortingscode=2013"}}{\fldrslt \cf2 \ul \ulc2 Mac Superhelden}},\'a0en leert je echt de basis van je Mac. Hierbij gebruik ik tekst, afbeeldingen,\'a0\cf3 audio en video\cf0 , dus het is makkelijk te leren.\
+\
+Wanneer je de link in deze mail gebruikt (deze dus:\'a0{\field{\*\fldinst{HYPERLINK "http://macsuperhelden.nl/?kortingscode=2013"}}{\fldrslt \cf2 \ul \ulc2 klik hier}}) krijg je bovendien 50% korting van mij cadeau, waardoor het erg goed betaalbaar is.\
+\
+\cf3 Kijk er eens naar en laat me weten of het iets voor je is! :)}</string>
+			</dict>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string></string>
+			<key>lastUsed</key>
+			<date>2013-05-02T19:22:28Z</date>
+			<key>modificationDate</key>
+			<date>2013-02-16T20:01:54Z</date>
+			<key>plainText</key>
+			<string>ik heb zelf een cursus gemaakt, Mac Superhelden, en leert je echt de basis van je Mac. Hierbij gebruik ik tekst, afbeeldingen, audio en video, dus het is makkelijk te leren.
+
+Wanneer je de link in deze mail gebruikt (deze dus: klik hier) krijg je bovendien 50% korting van mij cadeau, waardoor het erg goed betaalbaar is.
+
+Kijk er eens naar en laat me weten of het iets voor je is! :)</string>
+			<key>richText</key>
+			<data>
+			BAtzdHJlYW10eXBlZIHoA4QBQISEhBJOU0F0dHJpYnV0ZWRTdHJp
+			bmcAhIQITlNPYmplY3QAhZKEhIQITlNTdHJpbmcBlIQBK4GEAWlr
+			IGhlYiB6ZWxmIGVlbiBjdXJzdXMgZ2VtYWFrdCzCoE1hYyBTdXBl
+			cmhlbGRlbizCoGVuIGxlZXJ0IGplIGVjaHQgZGUgYmFzaXMgdmFu
+			IGplIE1hYy4gSGllcmJpaiBnZWJydWlrIGlrIHRla3N0LCBhZmJl
+			ZWxkaW5nZW4swqBhdWRpbyBlbiB2aWRlbywgZHVzIGhldCBpcyBt
+			YWtrZWxpamsgdGUgbGVyZW4uCgpXYW5uZWVyIGplIGRlIGxpbmsg
+			aW4gZGV6ZSBtYWlsIGdlYnJ1aWt0IChkZXplIGR1czrCoGtsaWsg
+			aGllcikga3JpamcgamUgYm92ZW5kaWVuIDUwJSBrb3J0aW5nIHZh
+			biBtaWogY2FkZWF1LCB3YWFyZG9vciBoZXQgZXJnIGdvZWQgYmV0
+			YWFsYmFhciBpcy4KCktpamsgZXIgZWVucyBuYWFyIGVuIGxhYXQg
+			bWUgd2V0ZW4gb2YgaGV0IGlldHMgdm9vciBqZSBpcyEgOimGhAJp
+			SQEgkoSEhAxOU0RpY3Rpb25hcnkAlIQBaQKShJaWEE5TUGFyYWdy
+			YXBoU3R5bGWGkoSEhBBOU1BhcmFncmFwaFN0eWxlAJSEBENDQFMA
+			AISEhAdOU0FycmF5AJSZAIaBAAqEBFsyZl0kg83MTD2GkoSWlgZO
+			U0ZvbnSGkoSEhAZOU0ZvbnQelJkchAVbMjhjXQYAAAAUAAAA//5I
+			AGUAbAB2AGUAdABpAGMAYQCEAWYNhAFjAKEBoQChAIaGlwIPkoSY
+			mQaShJaWEE5TVW5kZXJsaW5lQ29sb3KGkoSEhAdOU0NvbG9yAJSh
+			AYQEZmZmZoOBgIA9g/HwcD6DwcBAPwGGkoSWlgZOU0xpbmuGkoSE
+			hAVOU1VSTACUoQCShJaWK2h0dHA6Ly9tYWNzdXBlcmhlbGRlbi5u
+			bC8/a29ydGluZ3Njb2RlPTIwMTOGhpKElpYLTlNVbmRlcmxpbmWG
+			koSEhAhOU051bWJlcgCEhAdOU1ZhbHVlAJSEASqEhAFxqAGGkoSW
+			lgdOU0NvbG9yhpKjkpmSmpKekp+GlwFQlwMOkoSYmQOSrpKEpKEB
+			o4PR0NA9g9HQ0D2D0dDQPQGGkpmSmpKekp+GlwFWlwIJlwFXlwM9
+			hg==
+			</data>
+			<key>snippetType</key>
+			<integer>1</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>0B81D7CD-E1D3-45B0-AA51-043B9A1A0BE8</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>;inlog</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2013-10-29T08:19:59Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string></string>
+			<key>lastUsed</key>
+			<date>2015-03-01T12:35:34Z</date>
+			<key>modificationDate</key>
+			<date>2014-05-08T07:16:15Z</date>
+			<key>plainText</key>
+			<string>https://applesuperhelden.nl/video/inloggen-apple-superhelden/</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>31</integer>
+			<key>uuidString</key>
+			<string>F2FEFA88-586D-44DC-A9AD-790AB53BD1FA</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>;vergeten</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2013-11-14T11:01:18Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string></string>
+			<key>lastUsed</key>
+			<date>2015-03-01T12:35:27Z</date>
+			<key>modificationDate</key>
+			<date>2014-05-08T07:15:57Z</date>
+			<key>plainText</key>
+			<string>https://applesuperhelden.nl/video/wachtwoord-vergeten/</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>20</integer>
+			<key>uuidString</key>
+			<string>5178037D-337F-45DA-811C-1E05BF67F71F</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>;ipadflash</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2013-04-17T18:44:18Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string></string>
+			<key>modificationDate</key>
+			<date>2013-04-17T18:44:18Z</date>
+			<key>plainText</key>
+			<string>De iPhone en iPad ondersteunen geen Flash. Flash is eigenlijk een verouderde techniek die ook door Adobe zelf niet meer ondersteund wordt op mobiele platformen.
+
+Dat gaat Apple niet veranderen, en het is dus aan de makers van websites om nieuwe technieken te gebruiken.</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>452CD1D9-C358-450C-863E-D2A98AA86084</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>;;inlog</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2013-11-12T13:31:06Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string></string>
+			<key>modificationDate</key>
+			<date>2013-11-12T13:31:06Z</date>
+			<key>plainText</key>
+			<string>Het goede nieuws: je account bestaat gewoon, je hebt toegang tot de module en de gegevens zijn naar je opgestuurd.
+Het minder goede nieuws: ze zijn misschien in je spam gekomen…
+Het beste nieuws: ik heb een video gemaakt waarin je precies ziet hoe je moet inloggen, en ook hoe je een nieuw wachtwoord kunt aanvragen!
+
+http://applesuperhelden.nl/video/inloggen-apple-superhelden/</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>944502C1-BEE4-4FA4-A5E2-02B49E9D51B1</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>cchecklist</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2013-12-02T19:18:06Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string></string>
+			<key>lastUsed</key>
+			<date>2014-01-08T17:18:11Z</date>
+			<key>modificationDate</key>
+			<date>2013-12-02T19:18:06Z</date>
+			<key>plainText</key>
+			<string>Hey ! :)
+
+Nog even voor we beginnen, snel een checklistje van wat handig is om bij de hand te hebben wanneer we samen zitten. Punten die naar mijn ervaring altijd handig zijn:
+
+* Wachtwoord WiFi-netwerk
+* Wachtwoord en gebruikersnaam email-account
+* Wachtwoord(en) gebruikersaccounts Mac
+* Wachtwoord en gebruikersnaam (emailadres) Apple ID
+* Wachtwoord(en) van relevante online diensten
+
+De laatste geeft 't al een beetje weg: een beetje gezond verstand gebruiken geeft vaak een iets langere lijst. Als we samen naar Evernote gaan kijken, is het handig dat je van te voren je Evernote-wachtwoord opzoekt.
+
+Tot snel,
+
+\- Martijn</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>2</integer>
+			<key>uuidString</key>
+			<string>0424A793-B948-435F-95D5-AB371110897C</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>;handtekening</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2013-08-01T13:42:25Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string></string>
+			<key>modificationDate</key>
+			<date>2013-08-01T13:42:25Z</date>
+			<key>plainText</key>
+			<string>Hi,
+
+Ik snap dat zo'n offerte even lastig is als je het niet eerder gedaan hebt. Ik heb even een video'tje voor je gemaakt: http://geestalswater.nl/wp-content/uploads/2013/08/offerte-tekenen.mov
+
+Helpt dat?
+
+- Martijn</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>B1155F6C-B580-4D21-9729-6FCFE203E7C3</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>dwm</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2014-09-17T08:37:12Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string></string>
+			<key>lastUsed</key>
+			<date>2014-10-22T12:51:39Z</date>
+			<key>modificationDate</key>
+			<date>2014-09-17T08:37:17Z</date>
+			<key>plainText</key>
+			<string>Dank je wel, wordt mooi! :)</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>14</integer>
+			<key>uuidString</key>
+			<string>4FB44431-DBEA-4454-B25A-A7F2589E81E5</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>xvraag</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2014-10-31T15:49:01Z</date>
+			<key>extraInfo</key>
+			<dict>
+				<key>RTF</key>
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf1344\cocoasubrtf720
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue233;}
+\deftab720
+\pard\pardeftab720\sl320\sa240
+
+\f0\fs26 \cf0 \expnd0\expndtw0\kerning0
+Hey! :)\
+Hoewel ik het altijd heel leuk vind om mensen te helpen, heb ik helaas  (o.a. dankzij 9.000+ nieuwsbrief lezers\'85) zelf geen tijd meer om individuele support-vragen te beantwoorden. Natuurlijk help ik je wel graag door\'a0{\field{\*\fldinst{HYPERLINK "http://applenieuwsbrief.nl/"}}{\fldrslt \cf2 \expnd0\expndtw0\kerning0
+\ul \ulc2 de wekelijkse tips}}\'a0en de\'a0{\field{\*\fldinst{HYPERLINK "https://applesuperhelden.nl/"}}{\fldrslt \cf2 \expnd0\expndtw0\kerning0
+\ul \ulc2 Apple Superhelden cursussen}}.\
+\pard\pardeftab720\sl320\sa240
+
+\b \cf0 \expnd0\expndtw0\kerning0
+Wat nu?
+\b0 \expnd0\expndtw0\kerning0
+\
+Je hebt een paar opties wanneer de {\field{\*\fldinst{HYPERLINK "https://applecoach.nl/"}}{\fldrslt \expnd0\expndtw0\kerning0
+Apple Coach website}} (vergeet niet te zoeken via de zoekbalk rechtsboven) en {\field{\*\fldinst{HYPERLINK "https://applesuperhelden.nl/"}}{\fldrslt \expnd0\expndtw0\kerning0
+Apple Superhelden}} je vraag niet beantwoorden; welke route je kiest is helemaal aan jou.\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab720\pardirnatural
+
+\fs24 \cf0 \kerning1\expnd0\expndtw0 %fillpart:name=Mac Helpdesk%
+\b\fs26 \expnd0\expndtw0\kerning0
+1. Mac Helpdesk (betaald)\
+\
+\pard\pardeftab720\sl320\sa240
+
+\b0 \cf0 \expnd0\expndtw0\kerning0
+De jongens en meisjes van\'a0{\field{\*\fldinst{HYPERLINK "http://www.mac-helpdesk.nl/"}}{\fldrslt \cf2 \expnd0\expndtw0\kerning0
+\ul \ulc2 Mac-Helpdesk}}\'a0kunnen je waarschijnlijk w\'e9l helpen, en daarom verwijs ik je graag door naar hen voor vragen. Waar ik probeer een groot volume mensen zo goed mogelijk te helpen door uitgebreide tips en cursussen, zijn zij er om je specifieke vragen direct op te lossen. Tot 21.00 kun je hen bellen: {\field{\*\fldinst{HYPERLINK "http://www.mac-helpdesk.nl/helpdesk/"}}{\fldrslt \expnd0\expndtw0\kerning0
+http://www.mac-helpdesk.nl/helpdesk/}} (0900-6224357 \'e0 \'80 0,90/minuut.)
+\fs24 \kerning1\expnd0\expndtw0 %fillpartend%\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab720\pardirnatural
+\cf0 %fillpart:name=AppleCare Mac%
+\b\fs26 \expnd0\expndtw0\kerning0
+2. AppleCare voor je Mac (betaald)\
+\
+\pard\pardeftab720\sl320\sa240
+
+\b0 \cf0 \expnd0\expndtw0\kerning0
+Een andere optie: AppleCare aanschaffen. Dit kost je voor een Mac zo tussen de 150 en 250 euro, voor 3 jaar (gerekend vanaf de aankoopdatum van je 
+\i \expnd0\expndtw0\kerning0
+Mac
+\i0 \expnd0\expndtw0\kerning0
+, niet vanaf de aankoopdatum van de AppleCare). AppleCare is direct van Apple zelf en moet aangekocht worden binnen 12 maanden na de aankoop van de Mac.\
+\pard\pardeftab720\sl320\sa240
+{\field{\*\fldinst{HYPERLINK "http://store.apple.com/nl/browse/home/applecare"}}{\fldrslt \cf0 \expnd0\expndtw0\kerning0
+Meer informatie over AppleCare}}
+\fs24 \kerning1\expnd0\expndtw0 %fillpartend%\
+\pard\pardeftab720\sl320\sa240
+
+\fs26 \cf0 %
+\fs24 %fillpart:name=AppleCare iOS%
+\b\fs26 \expnd0\expndtw0\kerning0
+2. AppleCare voor je iPhone of iPad (betaald)\
+\pard\pardeftab720\sl320\sa240
+
+\b0 \cf0 \expnd0\expndtw0\kerning0
+Een andere optie: AppleCare aanschaffen. Dit kost je voor een iPhone of iPad zo\'92n 100 euro, voor 2 jaar (gerekend vanaf de aankoopdatum van je iPhone of iPad, 
+\i \expnd0\expndtw0\kerning0
+niet
+\i0 \expnd0\expndtw0\kerning0
+ vanaf de aankoopdatum van de AppleCare). AppleCare is direct van Apple zelf en moet aangekocht worden binnen 3 maanden na de aankoop van de iPhone of iPad.\
+\pard\pardeftab720\sl320\sa240
+{\field{\*\fldinst{HYPERLINK "http://store.apple.com/nl/browse/home/applecare"}}{\fldrslt \cf0 \expnd0\expndtw0\kerning0
+Meer informatie over AppleCare}}
+\fs24 \kerning1\expnd0\expndtw0 %fillpartend%\
+%fillpart:name=MacFreak%
+\b\fs26 \expnd0\expndtw0\kerning0
+3. MacFreak forum (gratis)\
+\pard\pardeftab720\sl320\sa240
+
+\b0 \cf0 \expnd0\expndtw0\kerning0
+Je zou het ook kunnen proberen op het {\field{\*\fldinst{HYPERLINK "http://www.macfreak.nl/forums/"}}{\fldrslt \kerning1\expnd0\expndtw0 MacFreak Forum}}\kerning1\expnd0\expndtw0 . Hier zitten andere Apple enthousiastelingen (net als ik :-)), die wat meer tijd hebben voor het beantwoorden van vragen. Zoals altijd op internet fora: kwaliteit en vriendelijkheid zijn niet overal gelijk.\
+Let op dat je je vraag/probleem duidelijk formuleert wanneer je dit post in een forum. Vermeld wat je wilt dat er gebeurt, wat er daadwerkelijk gebeurt, welke versie van het programma je gebruikt en eventuele randvoorwaarden om het probleem op te laten treden.\expnd0\expndtw0\kerning0
+%fillpartend%\
+%fillpart:name=iCulture Forum%
+\b \expnd0\expndtw0\kerning0
+4. iCulture Forum (gratis)\
+
+\b0 \expnd0\expndtw0\kerning0
+ Je zou het ook kunnen proberen op het {\field{\*\fldinst{HYPERLINK "http://forum.iculture.nl/"}}{\fldrslt \expnd0\expndtw0\kerning0
+iCulture Forum}}\kerning1\expnd0\expndtw0 . Hier zitten andere iOS enthousiastelingen, die wat meer tijd hebben voor het beantwoorden van vragen. Zoals altijd op internet fora: kwaliteit en vriendelijkheid zijn niet overal gelijk.\
+Let op dat je je vraag/probleem duidelijk formuleert wanneer je dit post in een forum. Vermeld wat je wilt dat er gebeurt, wat er daadwerkelijk gebeurt, welke versie van het programma je gebruikt en eventuele randvoorwaarden om het probleem op te laten treden.\
+%fillpartend%
+\b \expnd0\expndtw0\kerning0
+\
+
+\b0 \expnd0\expndtw0\kerning0
+***\
+(Als je in bovenstaand lijstje de optie voor een Apple Coach strippenkaart mist\'85 Dat klopt. Die bied ik niet echt meer aan, o.a. omdat het oplossen van problemen via email gewoon erg lastig blijkt.) }</string>
+			</dict>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string></string>
+			<key>lastUsed</key>
+			<date>2015-01-15T14:48:10Z</date>
+			<key>modificationDate</key>
+			<date>2015-03-03T12:36:19Z</date>
+			<key>plainText</key>
+			<string>Hey! :)
+Hoewel ik het altijd heel leuk vind om mensen te helpen, heb ik helaas  (o.a. dankzij 9.000+ nieuwsbrief lezers…) zelf geen tijd meer om individuele support-vragen te beantwoorden. Natuurlijk help ik je wel graag door de wekelijkse tips en de Apple Superhelden cursussen.
+Wat nu?
+Je hebt een paar opties wanneer de Apple Coach website (vergeet niet te zoeken via de zoekbalk rechtsboven) en Apple Superhelden je vraag niet beantwoorden; welke route je kiest is helemaal aan jou.
+%fillpart:name=Mac Helpdesk%1. Mac Helpdesk (betaald)
+
+De jongens en meisjes van Mac-Helpdesk kunnen je waarschijnlijk wél helpen, en daarom verwijs ik je graag door naar hen voor vragen. Waar ik probeer een groot volume mensen zo goed mogelijk te helpen door uitgebreide tips en cursussen, zijn zij er om je specifieke vragen direct op te lossen. Tot 21.00 kun je hen bellen: http://www.mac-helpdesk.nl/helpdesk/ (0900-6224357 à € 0,90/minuut.)%fillpartend%
+%fillpart:name=AppleCare Mac%2. AppleCare voor je Mac (betaald)
+
+Een andere optie: AppleCare aanschaffen. Dit kost je voor een Mac zo tussen de 150 en 250 euro, voor 3 jaar (gerekend vanaf de aankoopdatum van je Mac, niet vanaf de aankoopdatum van de AppleCare). AppleCare is direct van Apple zelf en moet aangekocht worden binnen 12 maanden na de aankoop van de Mac.
+Meer informatie over AppleCare%fillpartend%
+%%fillpart:name=AppleCare iOS%2. AppleCare voor je iPhone of iPad (betaald)
+Een andere optie: AppleCare aanschaffen. Dit kost je voor een iPhone of iPad zo’n 100 euro, voor 2 jaar (gerekend vanaf de aankoopdatum van je iPhone of iPad, niet vanaf de aankoopdatum van de AppleCare). AppleCare is direct van Apple zelf en moet aangekocht worden binnen 3 maanden na de aankoop van de iPhone of iPad.
+Meer informatie over AppleCare%fillpartend%
+%fillpart:name=MacFreak%3. MacFreak forum (gratis)
+Je zou het ook kunnen proberen op het MacFreak Forum. Hier zitten andere Apple enthousiastelingen (net als ik :-)), die wat meer tijd hebben voor het beantwoorden van vragen. Zoals altijd op internet fora: kwaliteit en vriendelijkheid zijn niet overal gelijk.
+Let op dat je je vraag/probleem duidelijk formuleert wanneer je dit post in een forum. Vermeld wat je wilt dat er gebeurt, wat er daadwerkelijk gebeurt, welke versie van het programma je gebruikt en eventuele randvoorwaarden om het probleem op te laten treden.%fillpartend%
+%fillpart:name=iCulture Forum%4. iCulture Forum (gratis)
+ Je zou het ook kunnen proberen op het iCulture Forum. Hier zitten andere iOS enthousiastelingen, die wat meer tijd hebben voor het beantwoorden van vragen. Zoals altijd op internet fora: kwaliteit en vriendelijkheid zijn niet overal gelijk.
+Let op dat je je vraag/probleem duidelijk formuleert wanneer je dit post in een forum. Vermeld wat je wilt dat er gebeurt, wat er daadwerkelijk gebeurt, welke versie van het programma je gebruikt en eventuele randvoorwaarden om het probleem op te laten treden.
+%fillpartend%
+***
+(Als je in bovenstaand lijstje de optie voor een Apple Coach strippenkaart mist… Dat klopt. Die bied ik niet echt meer aan, o.a. omdat het oplossen van problemen via email gewoon erg lastig blijkt.) </string>
+			<key>richText</key>
+			<data>
+			BAtzdHJlYW10eXBlZIHoA4QBQISEhBJOU0F0dHJpYnV0ZWRTdHJp
+			bmcAhIQITlNPYmplY3QAhZKEhIQPTlNNdXRhYmxlU3RyaW5nAYSE
+			CE5TU3RyaW5nAZSEASuBZwxIZXkhIDopCkhvZXdlbCBpayBoZXQg
+			YWx0aWpkIGhlZWwgbGV1ayB2aW5kIG9tIG1lbnNlbiB0ZSBoZWxw
+			ZW4sIGhlYiBpayBoZWxhYXMgIChvLmEuIGRhbmt6aWogOS4wMDAr
+			IG5pZXV3c2JyaWVmIGxlemVyc+KApikgemVsZiBnZWVuIHRpamQg
+			bWVlciBvbSBpbmRpdmlkdWVsZSBzdXBwb3J0LXZyYWdlbiB0ZSBi
+			ZWFudHdvb3JkZW4uIE5hdHV1cmxpamsgaGVscCBpayBqZSB3ZWwg
+			Z3JhYWcgZG9vcsKgZGUgd2VrZWxpamtzZSB0aXBzwqBlbiBkZcKg
+			QXBwbGUgU3VwZXJoZWxkZW4gY3Vyc3Vzc2VuLgpXYXQgbnU/Ckpl
+			IGhlYnQgZWVuIHBhYXIgb3B0aWVzIHdhbm5lZXIgZGUgQXBwbGUg
+			Q29hY2ggd2Vic2l0ZSAodmVyZ2VldCBuaWV0IHRlIHpvZWtlbiB2
+			aWEgZGUgem9la2JhbGsgcmVjaHRzYm92ZW4pIGVuIEFwcGxlIFN1
+			cGVyaGVsZGVuIGplIHZyYWFnIG5pZXQgYmVhbnR3b29yZGVuOyB3
+			ZWxrZSByb3V0ZSBqZSBraWVzdCBpcyBoZWxlbWFhbCBhYW4gam91
+			LgolZmlsbHBhcnQ6bmFtZT1NYWMgSGVscGRlc2slMS4gTWFjIEhl
+			bHBkZXNrIChiZXRhYWxkKQoKRGUgam9uZ2VucyBlbiBtZWlzamVz
+			IHZhbsKgTWFjLUhlbHBkZXNrwqBrdW5uZW4gamUgd2FhcnNjaGlq
+			bmxpamsgd8OpbCBoZWxwZW4sIGVuIGRhYXJvbSB2ZXJ3aWpzIGlr
+			IGplIGdyYWFnIGRvb3IgbmFhciBoZW4gdm9vciB2cmFnZW4uIFdh
+			YXIgaWsgcHJvYmVlciBlZW4gZ3Jvb3Qgdm9sdW1lIG1lbnNlbiB6
+			byBnb2VkIG1vZ2VsaWprIHRlIGhlbHBlbiBkb29yIHVpdGdlYnJl
+			aWRlIHRpcHMgZW4gY3Vyc3Vzc2VuLCB6aWpuIHppaiBlciBvbSBq
+			ZSBzcGVjaWZpZWtlIHZyYWdlbiBkaXJlY3Qgb3AgdGUgbG9zc2Vu
+			LiBUb3QgMjEuMDAga3VuIGplIGhlbiBiZWxsZW46IGh0dHA6Ly93
+			d3cubWFjLWhlbHBkZXNrLm5sL2hlbHBkZXNrLyAoMDkwMC02MjI0
+			MzU3IMOgIOKCrCAwLDkwL21pbnV1dC4pJWZpbGxwYXJ0ZW5kJQol
+			ZmlsbHBhcnQ6bmFtZT1BcHBsZUNhcmUgTWFjJTIuIEFwcGxlQ2Fy
+			ZSB2b29yIGplIE1hYyAoYmV0YWFsZCkKCkVlbiBhbmRlcmUgb3B0
+			aWU6IEFwcGxlQ2FyZSBhYW5zY2hhZmZlbi4gRGl0IGtvc3QgamUg
+			dm9vciBlZW4gTWFjIHpvIHR1c3NlbiBkZSAxNTAgZW4gMjUwIGV1
+			cm8sIHZvb3IgMyBqYWFyIChnZXJla2VuZCB2YW5hZiBkZSBhYW5r
+			b29wZGF0dW0gdmFuIGplIE1hYywgbmlldCB2YW5hZiBkZSBhYW5r
+			b29wZGF0dW0gdmFuIGRlIEFwcGxlQ2FyZSkuIEFwcGxlQ2FyZSBp
+			cyBkaXJlY3QgdmFuIEFwcGxlIHplbGYgZW4gbW9ldCBhYW5nZWtv
+			Y2h0IHdvcmRlbiBiaW5uZW4gMTIgbWFhbmRlbiBuYSBkZSBhYW5r
+			b29wIHZhbiBkZSBNYWMuCk1lZXIgaW5mb3JtYXRpZSBvdmVyIEFw
+			cGxlQ2FyZSVmaWxscGFydGVuZCUKJSVmaWxscGFydDpuYW1lPUFw
+			cGxlQ2FyZSBpT1MlMi4gQXBwbGVDYXJlIHZvb3IgamUgaVBob25l
+			IG9mIGlQYWQgKGJldGFhbGQpCkVlbiBhbmRlcmUgb3B0aWU6IEFw
+			cGxlQ2FyZSBhYW5zY2hhZmZlbi4gRGl0IGtvc3QgamUgdm9vciBl
+			ZW4gaVBob25lIG9mIGlQYWQgem/igJluIDEwMCBldXJvLCB2b29y
+			IDIgamFhciAoZ2VyZWtlbmQgdmFuYWYgZGUgYWFua29vcGRhdHVt
+			IHZhbiBqZSBpUGhvbmUgb2YgaVBhZCwgbmlldCB2YW5hZiBkZSBh
+			YW5rb29wZGF0dW0gdmFuIGRlIEFwcGxlQ2FyZSkuIEFwcGxlQ2Fy
+			ZSBpcyBkaXJlY3QgdmFuIEFwcGxlIHplbGYgZW4gbW9ldCBhYW5n
+			ZWtvY2h0IHdvcmRlbiBiaW5uZW4gMyBtYWFuZGVuIG5hIGRlIGFh
+			bmtvb3AgdmFuIGRlIGlQaG9uZSBvZiBpUGFkLgpNZWVyIGluZm9y
+			bWF0aWUgb3ZlciBBcHBsZUNhcmUlZmlsbHBhcnRlbmQlCiVmaWxs
+			cGFydDpuYW1lPU1hY0ZyZWFrJTMuIE1hY0ZyZWFrIGZvcnVtIChn
+			cmF0aXMpCkplIHpvdSBoZXQgb29rIGt1bm5lbiBwcm9iZXJlbiBv
+			cCBoZXQgTWFjRnJlYWsgRm9ydW0uIEhpZXIgeml0dGVuIGFuZGVy
+			ZSBBcHBsZSBlbnRob3VzaWFzdGVsaW5nZW4gKG5ldCBhbHMgaWsg
+			Oi0pKSwgZGllIHdhdCBtZWVyIHRpamQgaGViYmVuIHZvb3IgaGV0
+			IGJlYW50d29vcmRlbiB2YW4gdnJhZ2VuLiBab2FscyBhbHRpamQg
+			b3AgaW50ZXJuZXQgZm9yYToga3dhbGl0ZWl0IGVuIHZyaWVuZGVs
+			aWpraGVpZCB6aWpuIG5pZXQgb3ZlcmFsIGdlbGlqay4KTGV0IG9w
+			IGRhdCBqZSBqZSB2cmFhZy9wcm9ibGVlbSBkdWlkZWxpamsgZm9y
+			bXVsZWVydCB3YW5uZWVyIGplIGRpdCBwb3N0IGluIGVlbiBmb3J1
+			bS4gVmVybWVsZCB3YXQgamUgd2lsdCBkYXQgZXIgZ2ViZXVydCwg
+			d2F0IGVyIGRhYWR3ZXJrZWxpamsgZ2ViZXVydCwgd2Vsa2UgdmVy
+			c2llIHZhbiBoZXQgcHJvZ3JhbW1hIGplIGdlYnJ1aWt0IGVuIGV2
+			ZW50dWVsZSByYW5kdm9vcndhYXJkZW4gb20gaGV0IHByb2JsZWVt
+			IG9wIHRlIGxhdGVuIHRyZWRlbi4lZmlsbHBhcnRlbmQlCiVmaWxs
+			cGFydDpuYW1lPWlDdWx0dXJlIEZvcnVtJTQuIGlDdWx0dXJlIEZv
+			cnVtIChncmF0aXMpCiBKZSB6b3UgaGV0IG9vayBrdW5uZW4gcHJv
+			YmVyZW4gb3AgaGV0IGlDdWx0dXJlIEZvcnVtLiBIaWVyIHppdHRl
+			biBhbmRlcmUgaU9TIGVudGhvdXNpYXN0ZWxpbmdlbiwgZGllIHdh
+			dCBtZWVyIHRpamQgaGViYmVuIHZvb3IgaGV0IGJlYW50d29vcmRl
+			biB2YW4gdnJhZ2VuLiBab2FscyBhbHRpamQgb3AgaW50ZXJuZXQg
+			Zm9yYToga3dhbGl0ZWl0IGVuIHZyaWVuZGVsaWpraGVpZCB6aWpu
+			IG5pZXQgb3ZlcmFsIGdlbGlqay4KTGV0IG9wIGRhdCBqZSBqZSB2
+			cmFhZy9wcm9ibGVlbSBkdWlkZWxpamsgZm9ybXVsZWVydCB3YW5u
+			ZWVyIGplIGRpdCBwb3N0IGluIGVlbiBmb3J1bS4gVmVybWVsZCB3
+			YXQgamUgd2lsdCBkYXQgZXIgZ2ViZXVydCwgd2F0IGVyIGRhYWR3
+			ZXJrZWxpamsgZ2ViZXVydCwgd2Vsa2UgdmVyc2llIHZhbiBoZXQg
+			cHJvZ3JhbW1hIGplIGdlYnJ1aWt0IGVuIGV2ZW50dWVsZSByYW5k
+			dm9vcndhYXJkZW4gb20gaGV0IHByb2JsZWVtIG9wIHRlIGxhdGVu
+			IHRyZWRlbi4KJWZpbGxwYXJ0ZW5kJQoqKioKKEFscyBqZSBpbiBi
+			b3ZlbnN0YWFuZCBsaWpzdGplIGRlIG9wdGllIHZvb3IgZWVuIEFw
+			cGxlIENvYWNoIHN0cmlwcGVua2FhcnQgbWlzdOKApiBEYXQga2xv
+			cHQuIERpZSBiaWVkIGlrIG5pZXQgZWNodCBtZWVyIGFhbiwgby5h
+			LiBvbWRhdCBoZXQgb3Bsb3NzZW4gdmFuIHByb2JsZW1lbiB2aWEg
+			ZW1haWwgZ2V3b29uIGVyZyBsYXN0aWcgYmxpamt0LikghoQCaUkB
+			geIAkoSEhAxOU0RpY3Rpb25hcnkAlIQBaQOShJeXBk5TS2VyboaS
+			hISECE5TTnVtYmVyAISEB05TVmFsdWUAlIQBKoSEAWSeAIaShJeX
+			EE5TUGFyYWdyYXBoU3R5bGWGkoSEhBBOU1BhcmFncmFwaFN0eWxl
+			AJSEBENDQFMAAISEhAdOU0FycmF5AJSaAIaBIgqEBFs0Zl0MECSD
+			zcxMPYaShJeXBk5TRm9udIaShISEBk5TRm9udB6UmhyEBVsyOGNd
+			BgAAABQAAAD//kgAZQBsAHYAZQB0AGkAYwBhAIQBZg2EAWMApgGm
+			AKYAhoaYAhKShJmaB5KEl5cHTlNDb2xvcoaShISEB05TQ29sb3IA
+			lKYBhARmZmZmAACD6ulpPwGGkoSXlxBOU1VuZGVybGluZUNvbG9y
+			hpKpkoSXlwtOU1VuZGVybGluZYaShJydhIQBcakBhpKfkqCShJeX
+			Bk5TTGlua4aShISEBU5TVVJMAJSmAJKEl5cbaHR0cDovL2FwcGxl
+			bmlldXdzYnJpZWYubmwvhoaSpJKlkpqShJydnp4AhoaYAQeYAxuS
+			hJmaB5KokqmSq5KpkqySrZKfkqCSr5KEsaYAkoSXlxxodHRwczov
+			L2FwcGxlc3VwZXJoZWxkZW4ubmwvhoaSpJKlkpqShJydnp4AhoaY
+			AQKYBAeShJmaA5KakoScnZ6eAIaSn5KEoaAAAKKBIgqiDBAkg83M
+			TD2GkqSShKaaKIQFWzQwY10GAAAAHgAAAP/+SABlAGwAdgBlAHQA
+			aQBjAGEALQBCAG8AbABkAAAApQ2mAKYBpgCmAIaGmAEkmAUTkoSZ
+			mgSSn5K6kq+ShLGmAJKEl5cWaHR0cHM6Ly9hcHBsZWNvYWNoLm5s
+			L4aGkqSSpZKakoScnZ6eAIaGmAE5mAYRkoSZmgSSn5K6kq+ShLGm
+			AJKEl5ccaHR0cHM6Ly9hcHBsZXN1cGVyaGVsZGVuLm5sL4aGkqSS
+			pZKakoScnZ6eAIaGmAFHmAcckoSZmgKSn5KEoaAAAISjmgyShISE
+			CU5TVGV4dFRhYgCUhAJDZgAchpKEyK0AOIaShMitAFSGkoTIrQBw
+			hpKEyK0AgYwAhpKEyK0AgagAhpKEyK0AgcQAhpKEyK0AgeAAhpKE
+			yK0AgfwAhpKEyK0AgRgBhpKEyK0AgTQBhpKEyK0AgVABhoaBAAqE
+			BFsyZl0kg83MTD2GkqSShKaaHKQGAAAAFAAAAP/+SABlAGwAdgBl
+			AHQAaQBjAGEApQymAKYBpgCmAIaGmAgbkoSZmgOSmpKEnJ2engCG
+			kp+SxZKkkruGmAEamAkMkoSZmgeSqJKpkquSqZKskq2Sn5KEoaAA
+			AKKBIgqiDBAkg83MTD2Gkq+ShLGmAJKEl5cbaHR0cDovL3d3dy5t
+			YWMtaGVscGRlc2submwvhoaSpJKlkpqShJydnp4AhoaYAYEcAZgK
+			JJKEmZoEkp+S2JKvkoSxpgCShJeXJGh0dHA6Ly93d3cubWFjLWhl
+			bHBkZXNrLm5sL2hlbHBkZXNrL4aGkqSSpZKakoScnZ6eAIaGmAEg
+			mAsOkoSZmgKSn5LYkqSS1IaYBx2YCCSYAYGTAJgMA5KEmZoDkpqS
+			hJydnp4AhpKfkoShoAAAooEiCqIMECSDzcxMPYaSpJKEpposhAVb
+			NDRjXQYAAAAkAAAA//5IAGUAbAB2AGUAdABpAGMAYQAtAE8AYgBs
+			AGkAcQB1AGUApQ2mAKYBpgCmAIaGmAGBmQCYDR6ShJmaBJKfkoSh
+			oAAAooEiCqIMECSDzcxMPYaSr5KEsaYAkoSXly9odHRwOi8vc3Rv
+			cmUuYXBwbGUuY29tL25sL2Jyb3dzZS9ob21lL2FwcGxlY2FyZYaG
+			kqSSpZKakoScnZ6eAIaGmAsOmA4BkoSZmgKSn5KEoaAAAKKBIgqi
+			DBAkg83MTD2GkqSSpYaYCx2YBC6YAYGfAJgMBJgBgZ0AmA0emAsm
+			mAQbmAEmmA8OkoSZmgOSpJKlkp+ShKGgAACigSIKogwQJIPNzEw9
+			hpKvkoSxpgCShJeXHmh0dHA6Ly93d3cubWFjZnJlYWsubmwvZm9y
+			dW1zL4aGhpgOgdQBmAEsmAQbmAEnmBAOkoSZmgSSn5Ltkq+ShLGm
+			AJKEl5cZaHR0cDovL2ZvcnVtLmljdWx0dXJlLm5sL4aGkqSSpZKa
+			koScnZ6eAIaGmA6BzwGYBAGYAYHLAIY=
+			</data>
+			<key>snippetType</key>
+			<integer>1</integer>
+			<key>useCount</key>
+			<integer>6</integer>
+			<key>uuidString</key>
+			<string>1FD38913-F839-456C-A487-E2FC5A0B4E09</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>ivraag</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2014-11-14T15:50:15Z</date>
+			<key>extraInfo</key>
+			<dict>
+				<key>RTF</key>
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf1344\cocoasubrtf720
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue233;}
+\deftab720
+\pard\pardeftab720\sl320\sa240
+
+\f0\fs26 \cf0 \expnd0\expndtw0\kerning0
+Hey! :)\
+Hoewel ik het altijd heel leuk vind om mensen te helpen, heb ik helaas (o.a. dankzij 9.000+ nieuwsbrief lezers\'85) zelf geen tijd meer om individuele support-vragen te beantwoorden. Natuurlijk help ik je wel graag door\'a0{\field{\*\fldinst{HYPERLINK "http://applenieuwsbrief.nl/"}}{\fldrslt \cf2 \expnd0\expndtw0\kerning0
+\ul \ulc2 de wekelijkse tips}}\'a0en de\'a0{\field{\*\fldinst{HYPERLINK "https://applesuperhelden.nl/"}}{\fldrslt \cf2 \expnd0\expndtw0\kerning0
+\ul \ulc2 Apple Superhelden cursussen}}.\
+\pard\pardeftab720\sl320\sa240
+
+\b \cf0 \expnd0\expndtw0\kerning0
+Wat nu?
+\b0 \expnd0\expndtw0\kerning0
+\
+Je hebt een paar opties wanneer de {\field{\*\fldinst{HYPERLINK "https://applecoach.nl/"}}{\fldrslt \expnd0\expndtw0\kerning0
+Apple Coach website}} (vergeet niet te zoeken via de zoekbalk rechtsboven) en {\field{\*\fldinst{HYPERLINK "https://applesuperhelden.nl/"}}{\fldrslt \expnd0\expndtw0\kerning0
+Apple Superhelden}} je vraag niet beantwoorden; welke route je kiest is helemaal aan jou.\
+
+\b \expnd0\expndtw0\kerning0
+1. AppleCare voor je iPhone of iPad (betaald)\
+\pard\pardeftab720\sl320\sa240
+
+\b0 \cf0 \expnd0\expndtw0\kerning0
+Een andere optie: AppleCare aanschaffen. Dit kost je voor een iPhone of iPad zo\'92n 100 euro, voor 2 jaar (gerekend vanaf de aankoopdatum van je iPhone of iPad, 
+\i \expnd0\expndtw0\kerning0
+niet
+\i0 \expnd0\expndtw0\kerning0
+ vanaf de aankoopdatum van de AppleCare). AppleCare is direct van Apple zelf en moet aangekocht worden binnen 3 maanden na de aankoop van de iPhone of iPad.\
+\pard\pardeftab720\sl320\sa240
+{\field{\*\fldinst{HYPERLINK "http://store.apple.com/nl/browse/home/applecare"}}{\fldrslt \cf0 \expnd0\expndtw0\kerning0
+Meer informatie over AppleCare}}
+\b \expnd0\expndtw0\kerning0
+\
+2. iCulture Forum (gratis)\
+\pard\pardeftab720\sl320\sa240
+
+\b0 \cf0 \expnd0\expndtw0\kerning0
+Je zou het ook kunnen proberen op het {\field{\*\fldinst{HYPERLINK "http://forum.iculture.nl/"}}{\fldrslt \expnd0\expndtw0\kerning0
+iCulture Forum}}\kerning1\expnd0\expndtw0 . Hier zitten andere iOS enthousiastelingen, die wat meer tijd hebben voor het beantwoorden van vragen. Zoals altijd op internet fora: kwaliteit en vriendelijkheid zijn niet overal gelijk.\
+Let op dat je je vraag/probleem duidelijk formuleert wanneer je dit post in een forum. Vermeld wat je wilt dat er gebeurt, wat er daadwerkelijk gebeurt, welke versie van het programma je gebruikt en eventuele randvoorwaarden om het probleem op te laten treden.\
+***
+\b \expnd0\expndtw0\kerning0
+\
+
+\b0 \expnd0\expndtw0\kerning0
+(Als je in bovenstaand lijstje de optie voor een Apple Coach strippenkaart mist\'85 Dat klopt. Die bied ik niet echt meer aan, o.a. omdat het oplossen van problemen via email gewoon erg lastig blijkt.) }</string>
+			</dict>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string></string>
+			<key>lastUsed</key>
+			<date>2015-02-19T09:35:19Z</date>
+			<key>modificationDate</key>
+			<date>2015-03-03T12:34:56Z</date>
+			<key>plainText</key>
+			<string>Hey! :)
+Hoewel ik het altijd heel leuk vind om mensen te helpen, heb ik helaas (o.a. dankzij 9.000+ nieuwsbrief lezers…) zelf geen tijd meer om individuele support-vragen te beantwoorden. Natuurlijk help ik je wel graag door de wekelijkse tips en de Apple Superhelden cursussen.
+Wat nu?
+Je hebt een paar opties wanneer de Apple Coach website (vergeet niet te zoeken via de zoekbalk rechtsboven) en Apple Superhelden je vraag niet beantwoorden; welke route je kiest is helemaal aan jou.
+1. AppleCare voor je iPhone of iPad (betaald)
+Een andere optie: AppleCare aanschaffen. Dit kost je voor een iPhone of iPad zo’n 100 euro, voor 2 jaar (gerekend vanaf de aankoopdatum van je iPhone of iPad, niet vanaf de aankoopdatum van de AppleCare). AppleCare is direct van Apple zelf en moet aangekocht worden binnen 3 maanden na de aankoop van de iPhone of iPad.
+Meer informatie over AppleCare
+2. iCulture Forum (gratis)
+Je zou het ook kunnen proberen op het iCulture Forum. Hier zitten andere iOS enthousiastelingen, die wat meer tijd hebben voor het beantwoorden van vragen. Zoals altijd op internet fora: kwaliteit en vriendelijkheid zijn niet overal gelijk.
+Let op dat je je vraag/probleem duidelijk formuleert wanneer je dit post in een forum. Vermeld wat je wilt dat er gebeurt, wat er daadwerkelijk gebeurt, welke versie van het programma je gebruikt en eventuele randvoorwaarden om het probleem op te laten treden.
+***
+(Als je in bovenstaand lijstje de optie voor een Apple Coach strippenkaart mist… Dat klopt. Die bied ik niet echt meer aan, o.a. omdat het oplossen van problemen via email gewoon erg lastig blijkt.) </string>
+			<key>richText</key>
+			<data>
+			BAtzdHJlYW10eXBlZIHoA4QBQISEhBJOU0F0dHJpYnV0ZWRTdHJp
+			bmcAhIQITlNPYmplY3QAhZKEhIQPTlNNdXRhYmxlU3RyaW5nAYSE
+			CE5TU3RyaW5nAZSEASuBWAZIZXkhIDopCkhvZXdlbCBpayBoZXQg
+			YWx0aWpkIGhlZWwgbGV1ayB2aW5kIG9tIG1lbnNlbiB0ZSBoZWxw
+			ZW4sIGhlYiBpayBoZWxhYXMgKG8uYS4gZGFua3ppaiA5LjAwMCsg
+			bmlldXdzYnJpZWYgbGV6ZXJz4oCmKSB6ZWxmIGdlZW4gdGlqZCBt
+			ZWVyIG9tIGluZGl2aWR1ZWxlIHN1cHBvcnQtdnJhZ2VuIHRlIGJl
+			YW50d29vcmRlbi4gTmF0dXVybGlqayBoZWxwIGlrIGplIHdlbCBn
+			cmFhZyBkb29ywqBkZSB3ZWtlbGlqa3NlIHRpcHPCoGVuIGRlwqBB
+			cHBsZSBTdXBlcmhlbGRlbiBjdXJzdXNzZW4uCldhdCBudT8KSmUg
+			aGVidCBlZW4gcGFhciBvcHRpZXMgd2FubmVlciBkZSBBcHBsZSBD
+			b2FjaCB3ZWJzaXRlICh2ZXJnZWV0IG5pZXQgdGUgem9la2VuIHZp
+			YSBkZSB6b2VrYmFsayByZWNodHNib3ZlbikgZW4gQXBwbGUgU3Vw
+			ZXJoZWxkZW4gamUgdnJhYWcgbmlldCBiZWFudHdvb3JkZW47IHdl
+			bGtlIHJvdXRlIGplIGtpZXN0IGlzIGhlbGVtYWFsIGFhbiBqb3Uu
+			CjEuIEFwcGxlQ2FyZSB2b29yIGplIGlQaG9uZSBvZiBpUGFkIChi
+			ZXRhYWxkKQpFZW4gYW5kZXJlIG9wdGllOiBBcHBsZUNhcmUgYWFu
+			c2NoYWZmZW4uIERpdCBrb3N0IGplIHZvb3IgZWVuIGlQaG9uZSBv
+			ZiBpUGFkIHpv4oCZbiAxMDAgZXVybywgdm9vciAyIGphYXIgKGdl
+			cmVrZW5kIHZhbmFmIGRlIGFhbmtvb3BkYXR1bSB2YW4gamUgaVBo
+			b25lIG9mIGlQYWQsIG5pZXQgdmFuYWYgZGUgYWFua29vcGRhdHVt
+			IHZhbiBkZSBBcHBsZUNhcmUpLiBBcHBsZUNhcmUgaXMgZGlyZWN0
+			IHZhbiBBcHBsZSB6ZWxmIGVuIG1vZXQgYWFuZ2Vrb2NodCB3b3Jk
+			ZW4gYmlubmVuIDMgbWFhbmRlbiBuYSBkZSBhYW5rb29wIHZhbiBk
+			ZSBpUGhvbmUgb2YgaVBhZC4KTWVlciBpbmZvcm1hdGllIG92ZXIg
+			QXBwbGVDYXJlCjIuIGlDdWx0dXJlIEZvcnVtIChncmF0aXMpCkpl
+			IHpvdSBoZXQgb29rIGt1bm5lbiBwcm9iZXJlbiBvcCBoZXQgaUN1
+			bHR1cmUgRm9ydW0uIEhpZXIgeml0dGVuIGFuZGVyZSBpT1MgZW50
+			aG91c2lhc3RlbGluZ2VuLCBkaWUgd2F0IG1lZXIgdGlqZCBoZWJi
+			ZW4gdm9vciBoZXQgYmVhbnR3b29yZGVuIHZhbiB2cmFnZW4uIFpv
+			YWxzIGFsdGlqZCBvcCBpbnRlcm5ldCBmb3JhOiBrd2FsaXRlaXQg
+			ZW4gdnJpZW5kZWxpamtoZWlkIHppam4gbmlldCBvdmVyYWwgZ2Vs
+			aWprLgpMZXQgb3AgZGF0IGplIGplIHZyYWFnL3Byb2JsZWVtIGR1
+			aWRlbGlqayBmb3JtdWxlZXJ0IHdhbm5lZXIgamUgZGl0IHBvc3Qg
+			aW4gZWVuIGZvcnVtLiBWZXJtZWxkIHdhdCBqZSB3aWx0IGRhdCBl
+			ciBnZWJldXJ0LCB3YXQgZXIgZGFhZHdlcmtlbGlqayBnZWJldXJ0
+			LCB3ZWxrZSB2ZXJzaWUgdmFuIGhldCBwcm9ncmFtbWEgamUgZ2Vi
+			cnVpa3QgZW4gZXZlbnR1ZWxlIHJhbmR2b29yd2FhcmRlbiBvbSBo
+			ZXQgcHJvYmxlZW0gb3AgdGUgbGF0ZW4gdHJlZGVuLgoqKioKKEFs
+			cyBqZSBpbiBib3ZlbnN0YWFuZCBsaWpzdGplIGRlIG9wdGllIHZv
+			b3IgZWVuIEFwcGxlIENvYWNoIHN0cmlwcGVua2FhcnQgbWlzdOKA
+			piBEYXQga2xvcHQuIERpZSBiaWVkIGlrIG5pZXQgZWNodCBtZWVy
+			IGFhbiwgby5hLiBvbWRhdCBoZXQgb3Bsb3NzZW4gdmFuIHByb2Js
+			ZW1lbiB2aWEgZW1haWwgZ2V3b29uIGVyZyBsYXN0aWcgYmxpamt0
+			LikghoQCaUkBgeEAkoSEhAxOU0RpY3Rpb25hcnkAlIQBaQOShJeX
+			Bk5TS2VyboaShISECE5TTnVtYmVyAISEB05TVmFsdWUAlIQBKoSE
+			AWSeAIaShJeXEE5TUGFyYWdyYXBoU3R5bGWGkoSEhBBOU1BhcmFn
+			cmFwaFN0eWxlAJSEBENDQFMAAISEhAdOU0FycmF5AJSaAIaBIgqE
+			BFs0Zl0MECSDzcxMPYaShJeXBk5TRm9udIaShISEBk5TRm9udB6U
+			mhyEBVsyOGNdBgAAABQAAAD//kgAZQBsAHYAZQB0AGkAYwBhAIQB
+			Zg2EAWMApgGmAKYAhoaYAhKShJmaB5KEl5cHTlNDb2xvcoaShISE
+			B05TQ29sb3IAlKYBhARmZmZmAACD6ulpPwGGkoSXlxBOU1VuZGVy
+			bGluZUNvbG9yhpKpkoSXlwtOU1VuZGVybGluZYaShJydhIQBcakB
+			hpKfkqCShJeXBk5TTGlua4aShISEBU5TVVJMAJSmAJKEl5cbaHR0
+			cDovL2FwcGxlbmlldXdzYnJpZWYubmwvhoaSpJKlkpqShJydnp4A
+			hoaYAQeYAxuShJmaB5KokqmSq5KpkqySrZKfkqCSr5KEsaYAkoSX
+			lxxodHRwczovL2FwcGxlc3VwZXJoZWxkZW4ubmwvhoaSpJKlkpqS
+			hJydnp4AhoaYAQKYBAeShJmaA5KakoScnZ6eAIaSn5KEoaAAAKKB
+			IgqiDBAkg83MTD2GkqSShKaaKIQFWzQwY10GAAAAHgAAAP/+SABl
+			AGwAdgBlAHQAaQBjAGEALQBCAG8AbABkAAAApQ2mAKYBpgCmAIaG
+			mAEkmAUTkoSZmgSSn5K6kq+ShLGmAJKEl5cWaHR0cHM6Ly9hcHBs
+			ZWNvYWNoLm5sL4aGkqSSpZKakoScnZ6eAIaGmAE5mAYRkoSZmgSS
+			n5K6kq+ShLGmAJKEl5ccaHR0cHM6Ly9hcHBsZXN1cGVyaGVsZGVu
+			Lm5sL4aGkqSSpZKakoScnZ6eAIaGmAFHmAQumAGBnwCYBwSShJma
+			A5KakoScnZ6eAIaSn5KEoaAAAKKBIgqiDBAkg83MTD2GkqSShKaa
+			LIQFWzQ0Y10GAAAAJAAAAP/+SABlAGwAdgBlAHQAaQBjAGEALQBP
+			AGIAbABpAHEAdQBlAKUNpgCmAaYApgCGhpgBgZ0AmAgekoSZmgSS
+			n5KEoaAAAKKBIgqiDBAkg83MTD2Gkq+ShLGmAJKEl5cvaHR0cDov
+			L3N0b3JlLmFwcGxlLmNvbS9ubC9icm93c2UvaG9tZS9hcHBsZWNh
+			cmWGhpKkkqWSmpKEnJ2engCGhpgEHJgBJpgJDpKEmZoEkp+ShKGg
+			AACigSIKogwQJIPNzEw9hpKvkoSxpgCShJeXGWh0dHA6Ly9mb3J1
+			bS5pY3VsdHVyZS5ubC+GhpKkkqWSmpKEnJ2engCGhpgKgcUBkoSZ
+			mgKSn5KEoaAAAKKBIgqiDBAkg83MTD2GkqSSpYaYBAGYAYHHAIY=
+			</data>
+			<key>snippetType</key>
+			<integer>1</integer>
+			<key>useCount</key>
+			<integer>8</integer>
+			<key>uuidString</key>
+			<string>5A668E84-AFE9-4E1B-9959-80232C432349</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>mvraag</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2014-11-14T15:50:15Z</date>
+			<key>extraInfo</key>
+			<dict>
+				<key>RTF</key>
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf1344\cocoasubrtf720
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue233;}
+\deftab720
+\pard\pardeftab720\sl320\sa240
+
+\f0\fs26 \cf0 \expnd0\expndtw0\kerning0
+Hey! :)\
+Hoewel ik het altijd heel leuk vind om mensen te helpen, heb ik helaas  (o.a. dankzij 9.000+ nieuwsbrief lezers\'85) zelf geen tijd meer om individuele support-vragen te beantwoorden. Natuurlijk help ik je wel graag door\'a0{\field{\*\fldinst{HYPERLINK "http://applenieuwsbrief.nl/"}}{\fldrslt \cf2 \expnd0\expndtw0\kerning0
+\ul \ulc2 de wekelijkse tips}}\'a0en de\'a0{\field{\*\fldinst{HYPERLINK "https://applesuperhelden.nl/"}}{\fldrslt \cf2 \expnd0\expndtw0\kerning0
+\ul \ulc2 Apple Superhelden cursussen}}.\
+\pard\pardeftab720\sl320\sa240
+
+\b \cf0 \expnd0\expndtw0\kerning0
+Wat nu?
+\b0 \expnd0\expndtw0\kerning0
+\
+Je hebt een paar opties wanneer de {\field{\*\fldinst{HYPERLINK "https://applecoach.nl/"}}{\fldrslt \expnd0\expndtw0\kerning0
+Apple Coach website}} (vergeet niet te zoeken via de zoekbalk rechtsboven) en {\field{\*\fldinst{HYPERLINK "https://applesuperhelden.nl/"}}{\fldrslt \expnd0\expndtw0\kerning0
+Apple Superhelden}} je vraag niet beantwoorden; welke route je kiest is helemaal aan jou.\
+
+\b \expnd0\expndtw0\kerning0
+1. Mac Helpdesk (betaald)\
+\pard\pardeftab720\sl320\sa240
+
+\b0 \cf0 \expnd0\expndtw0\kerning0
+De jongens en meisjes van\'a0{\field{\*\fldinst{HYPERLINK "http://www.mac-helpdesk.nl/"}}{\fldrslt \cf2 \expnd0\expndtw0\kerning0
+\ul \ulc2 Mac-Helpdesk}}\'a0kunnen je waarschijnlijk w\'e9l helpen, en daarom verwijs ik je graag door naar hen voor vragen. Waar ik probeer een groot volume mensen zo goed mogelijk te helpen door uitgebreide tips en cursussen, zijn zij er om je specifieke vragen direct op te lossen. Tot 21.00 kun je hen bellen: {\field{\*\fldinst{HYPERLINK "http://www.mac-helpdesk.nl/helpdesk/"}}{\fldrslt \expnd0\expndtw0\kerning0
+http://www.mac-helpdesk.nl/helpdesk/}} (0900-6224357 \'e0 \'80 0,90/minuut.)\
+\pard\pardeftab720\sl320\sa240
+
+\b \cf0 \expnd0\expndtw0\kerning0
+2. AppleCare voor je Mac (betaald)\
+\pard\pardeftab720\sl320\sa240
+
+\b0 \cf0 \expnd0\expndtw0\kerning0
+Een andere optie: AppleCare aanschaffen. Dit kost je voor een Mac zo tussen de 150 en 250 euro, voor 3 jaar (gerekend vanaf de aankoopdatum van je 
+\i \expnd0\expndtw0\kerning0
+Mac
+\i0 \expnd0\expndtw0\kerning0
+, niet vanaf de aankoopdatum van de AppleCare). AppleCare is direct van Apple zelf en moet aangekocht worden binnen 12 maanden na de aankoop van de Mac.\
+\pard\pardeftab720\sl320\sa240
+{\field{\*\fldinst{HYPERLINK "http://store.apple.com/nl/browse/home/applecare"}}{\fldrslt \cf0 \expnd0\expndtw0\kerning0
+Meer informatie over AppleCare}}\
+\pard\pardeftab720\sl320\sa240
+
+\b \cf0 \expnd0\expndtw0\kerning0
+3. MacFreak forum (gratis)\
+\pard\pardeftab720\sl320\sa240
+
+\b0 \cf0 \expnd0\expndtw0\kerning0
+Je zou het ook kunnen proberen op het {\field{\*\fldinst{HYPERLINK "http://www.macfreak.nl/forums/"}}{\fldrslt \kerning1\expnd0\expndtw0 MacFreak Forum}}\kerning1\expnd0\expndtw0 . Hier zitten andere Apple enthousiastelingen (net als ik :-)), die wat meer tijd hebben voor het beantwoorden van vragen. Zoals altijd op internet fora: kwaliteit en vriendelijkheid zijn niet overal gelijk.\
+Let op dat je je vraag/probleem duidelijk formuleert wanneer je dit post in een forum. Vermeld wat je wilt dat er gebeurt, wat er daadwerkelijk gebeurt, welke versie van het programma je gebruikt en eventuele randvoorwaarden om het probleem op te laten treden.}</string>
+			</dict>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string></string>
+			<key>lastUsed</key>
+			<date>2015-03-02T20:39:24Z</date>
+			<key>modificationDate</key>
+			<date>2015-03-03T12:34:59Z</date>
+			<key>plainText</key>
+			<string>Hey! :)
+Hoewel ik het altijd heel leuk vind om mensen te helpen, heb ik helaas  (o.a. dankzij 9.000+ nieuwsbrief lezers…) zelf geen tijd meer om individuele support-vragen te beantwoorden. Natuurlijk help ik je wel graag door de wekelijkse tips en de Apple Superhelden cursussen.
+Wat nu?
+Je hebt een paar opties wanneer de Apple Coach website (vergeet niet te zoeken via de zoekbalk rechtsboven) en Apple Superhelden je vraag niet beantwoorden; welke route je kiest is helemaal aan jou.
+1. Mac Helpdesk (betaald)
+De jongens en meisjes van Mac-Helpdesk kunnen je waarschijnlijk wél helpen, en daarom verwijs ik je graag door naar hen voor vragen. Waar ik probeer een groot volume mensen zo goed mogelijk te helpen door uitgebreide tips en cursussen, zijn zij er om je specifieke vragen direct op te lossen. Tot 21.00 kun je hen bellen: http://www.mac-helpdesk.nl/helpdesk/ (0900-6224357 à € 0,90/minuut.)
+2. AppleCare voor je Mac (betaald)
+Een andere optie: AppleCare aanschaffen. Dit kost je voor een Mac zo tussen de 150 en 250 euro, voor 3 jaar (gerekend vanaf de aankoopdatum van je Mac, niet vanaf de aankoopdatum van de AppleCare). AppleCare is direct van Apple zelf en moet aangekocht worden binnen 12 maanden na de aankoop van de Mac.
+Meer informatie over AppleCare
+3. MacFreak forum (gratis)
+Je zou het ook kunnen proberen op het MacFreak Forum. Hier zitten andere Apple enthousiastelingen (net als ik :-)), die wat meer tijd hebben voor het beantwoorden van vragen. Zoals altijd op internet fora: kwaliteit en vriendelijkheid zijn niet overal gelijk.
+Let op dat je je vraag/probleem duidelijk formuleert wanneer je dit post in een forum. Vermeld wat je wilt dat er gebeurt, wat er daadwerkelijk gebeurt, welke versie van het programma je gebruikt en eventuele randvoorwaarden om het probleem op te laten treden.</string>
+			<key>richText</key>
+			<data>
+			BAtzdHJlYW10eXBlZIHoA4QBQISEhBJOU0F0dHJpYnV0ZWRTdHJp
+			bmcAhIQITlNPYmplY3QAhZKEhIQPTlNNdXRhYmxlU3RyaW5nAYSE
+			CE5TU3RyaW5nAZSEASuBJwdIZXkhIDopCkhvZXdlbCBpayBoZXQg
+			YWx0aWpkIGhlZWwgbGV1ayB2aW5kIG9tIG1lbnNlbiB0ZSBoZWxw
+			ZW4sIGhlYiBpayBoZWxhYXMgIChvLmEuIGRhbmt6aWogOS4wMDAr
+			IG5pZXV3c2JyaWVmIGxlemVyc+KApikgemVsZiBnZWVuIHRpamQg
+			bWVlciBvbSBpbmRpdmlkdWVsZSBzdXBwb3J0LXZyYWdlbiB0ZSBi
+			ZWFudHdvb3JkZW4uIE5hdHV1cmxpamsgaGVscCBpayBqZSB3ZWwg
+			Z3JhYWcgZG9vcsKgZGUgd2VrZWxpamtzZSB0aXBzwqBlbiBkZcKg
+			QXBwbGUgU3VwZXJoZWxkZW4gY3Vyc3Vzc2VuLgpXYXQgbnU/Ckpl
+			IGhlYnQgZWVuIHBhYXIgb3B0aWVzIHdhbm5lZXIgZGUgQXBwbGUg
+			Q29hY2ggd2Vic2l0ZSAodmVyZ2VldCBuaWV0IHRlIHpvZWtlbiB2
+			aWEgZGUgem9la2JhbGsgcmVjaHRzYm92ZW4pIGVuIEFwcGxlIFN1
+			cGVyaGVsZGVuIGplIHZyYWFnIG5pZXQgYmVhbnR3b29yZGVuOyB3
+			ZWxrZSByb3V0ZSBqZSBraWVzdCBpcyBoZWxlbWFhbCBhYW4gam91
+			LgoxLiBNYWMgSGVscGRlc2sgKGJldGFhbGQpCkRlIGpvbmdlbnMg
+			ZW4gbWVpc2plcyB2YW7CoE1hYy1IZWxwZGVza8Kga3VubmVuIGpl
+			IHdhYXJzY2hpam5saWprIHfDqWwgaGVscGVuLCBlbiBkYWFyb20g
+			dmVyd2lqcyBpayBqZSBncmFhZyBkb29yIG5hYXIgaGVuIHZvb3Ig
+			dnJhZ2VuLiBXYWFyIGlrIHByb2JlZXIgZWVuIGdyb290IHZvbHVt
+			ZSBtZW5zZW4gem8gZ29lZCBtb2dlbGlqayB0ZSBoZWxwZW4gZG9v
+			ciB1aXRnZWJyZWlkZSB0aXBzIGVuIGN1cnN1c3NlbiwgemlqbiB6
+			aWogZXIgb20gamUgc3BlY2lmaWVrZSB2cmFnZW4gZGlyZWN0IG9w
+			IHRlIGxvc3Nlbi4gVG90IDIxLjAwIGt1biBqZSBoZW4gYmVsbGVu
+			OiBodHRwOi8vd3d3Lm1hYy1oZWxwZGVzay5ubC9oZWxwZGVzay8g
+			KDA5MDAtNjIyNDM1NyDDoCDigqwgMCw5MC9taW51dXQuKQoyLiBB
+			cHBsZUNhcmUgdm9vciBqZSBNYWMgKGJldGFhbGQpCkVlbiBhbmRl
+			cmUgb3B0aWU6IEFwcGxlQ2FyZSBhYW5zY2hhZmZlbi4gRGl0IGtv
+			c3QgamUgdm9vciBlZW4gTWFjIHpvIHR1c3NlbiBkZSAxNTAgZW4g
+			MjUwIGV1cm8sIHZvb3IgMyBqYWFyIChnZXJla2VuZCB2YW5hZiBk
+			ZSBhYW5rb29wZGF0dW0gdmFuIGplIE1hYywgbmlldCB2YW5hZiBk
+			ZSBhYW5rb29wZGF0dW0gdmFuIGRlIEFwcGxlQ2FyZSkuIEFwcGxl
+			Q2FyZSBpcyBkaXJlY3QgdmFuIEFwcGxlIHplbGYgZW4gbW9ldCBh
+			YW5nZWtvY2h0IHdvcmRlbiBiaW5uZW4gMTIgbWFhbmRlbiBuYSBk
+			ZSBhYW5rb29wIHZhbiBkZSBNYWMuCk1lZXIgaW5mb3JtYXRpZSBv
+			dmVyIEFwcGxlQ2FyZQozLiBNYWNGcmVhayBmb3J1bSAoZ3JhdGlz
+			KQpKZSB6b3UgaGV0IG9vayBrdW5uZW4gcHJvYmVyZW4gb3AgaGV0
+			IE1hY0ZyZWFrIEZvcnVtLiBIaWVyIHppdHRlbiBhbmRlcmUgQXBw
+			bGUgZW50aG91c2lhc3RlbGluZ2VuIChuZXQgYWxzIGlrIDotKSks
+			IGRpZSB3YXQgbWVlciB0aWpkIGhlYmJlbiB2b29yIGhldCBiZWFu
+			dHdvb3JkZW4gdmFuIHZyYWdlbi4gWm9hbHMgYWx0aWpkIG9wIGlu
+			dGVybmV0IGZvcmE6IGt3YWxpdGVpdCBlbiB2cmllbmRlbGlqa2hl
+			aWQgemlqbiBuaWV0IG92ZXJhbCBnZWxpamsuCkxldCBvcCBkYXQg
+			amUgamUgdnJhYWcvcHJvYmxlZW0gZHVpZGVsaWprIGZvcm11bGVl
+			cnQgd2FubmVlciBqZSBkaXQgcG9zdCBpbiBlZW4gZm9ydW0uIFZl
+			cm1lbGQgd2F0IGplIHdpbHQgZGF0IGVyIGdlYmV1cnQsIHdhdCBl
+			ciBkYWFkd2Vya2VsaWprIGdlYmV1cnQsIHdlbGtlIHZlcnNpZSB2
+			YW4gaGV0IHByb2dyYW1tYSBqZSBnZWJydWlrdCBlbiBldmVudHVl
+			bGUgcmFuZHZvb3J3YWFyZGVuIG9tIGhldCBwcm9ibGVlbSBvcCB0
+			ZSBsYXRlbiB0cmVkZW4uhoQCaUkBgeIAkoSEhAxOU0RpY3Rpb25h
+			cnkAlIQBaQOShJeXBk5TS2VyboaShISECE5TTnVtYmVyAISEB05T
+			VmFsdWUAlIQBKoSEAWSeAIaShJeXEE5TUGFyYWdyYXBoU3R5bGWG
+			koSEhBBOU1BhcmFncmFwaFN0eWxlAJSEBENDQFMAAISEhAdOU0Fy
+			cmF5AJSaAIaBIgqEBFs0Zl0MECSDzcxMPYaShJeXBk5TRm9udIaS
+			hISEBk5TRm9udB6UmhyEBVsyOGNdBgAAABQAAAD//kgAZQBsAHYA
+			ZQB0AGkAYwBhAIQBZg2EAWMApgGmAKYAhoaYAhKShJmaB5KEl5cH
+			TlNDb2xvcoaShISEB05TQ29sb3IAlKYBhARmZmZmAACD6ulpPwGG
+			koSXlxBOU1VuZGVybGluZUNvbG9yhpKpkoSXlwtOU1VuZGVybGlu
+			ZYaShJydhIQBcakBhpKfkqCShJeXBk5TTGlua4aShISEBU5TVVJM
+			AJSmAJKEl5cbaHR0cDovL2FwcGxlbmlldXdzYnJpZWYubmwvhoaS
+			pJKlkpqShJydnp4AhoaYAQeYAxuShJmaB5KokqmSq5KpkqySrZKf
+			kqCSr5KEsaYAkoSXlxxodHRwczovL2FwcGxlc3VwZXJoZWxkZW4u
+			bmwvhoaSpJKlkpqShJydnp4AhoaYAQKYBAeShJmaA5KakoScnZ6e
+			AIaSn5KEoaAAAKKBIgqiDBAkg83MTD2GkqSShKaaKIQFWzQwY10G
+			AAAAHgAAAP/+SABlAGwAdgBlAHQAaQBjAGEALQBCAG8AbABkAAAA
+			pQ2mAKYBpgCmAIaGmAEkmAUTkoSZmgSSn5K6kq+ShLGmAJKEl5cW
+			aHR0cHM6Ly9hcHBsZWNvYWNoLm5sL4aGkqSSpZKakoScnZ6eAIaG
+			mAE5mAYRkoSZmgSSn5K6kq+ShLGmAJKEl5ccaHR0cHM6Ly9hcHBs
+			ZXN1cGVyaGVsZGVuLm5sL4aGkqSSpZKakoScnZ6eAIaGmAFHmAQa
+			mAEamAcMkoSZmgeSqJKpkquSqZKskq2Sn5KEoaAAAKKBIgqiDBAk
+			g83MTD2Gkq+ShLGmAJKEl5cbaHR0cDovL3d3dy5tYWMtaGVscGRl
+			c2submwvhoaSpJKlkpqShJydnp4AhoaYAYEcAZgIJJKEmZoEkp+S
+			xZKvkoSxpgCShJeXJGh0dHA6Ly93d3cubWFjLWhlbHBkZXNrLm5s
+			L2hlbHBkZXNrL4aGkqSSpZKakoScnZ6eAIaGmAEhmAQjmAGBkwCY
+			CQOShJmaA5KakoScnZ6eAIaSn5KEoaAAAKKBIgqiDBAkg83MTD2G
+			kqSShKaaLIQFWzQ0Y10GAAAAJAAAAP/+SABlAGwAdgBlAHQAaQBj
+			AGEALQBPAGIAbABpAHEAdQBlAKUNpgCmAaYApgCGhpgBgZkAmAoe
+			koSZmgSSn5KEoaAAAKKBIgqiDBAkg83MTD2Gkq+ShLGmAJKEl5cv
+			aHR0cDovL3N0b3JlLmFwcGxlLmNvbS9ubC9icm93c2UvaG9tZS9h
+			cHBsZWNhcmWGhpKkkqWSmpKEnJ2engCGhpgBAZgEG5gBJpgLDpKE
+			mZoDkqSSpZKfkoShoAAAooEiCqIMECSDzcxMPYaSr5KEsaYAkoSX
+			lx5odHRwOi8vd3d3Lm1hY2ZyZWFrLm5sL2ZvcnVtcy+GhoaYDIHU
+			AZKEmZoCkp+ShKGgAACigSIKogwQJIPNzEw9hpKkkqWGhg==
+			</data>
+			<key>snippetType</key>
+			<integer>1</integer>
+			<key>useCount</key>
+			<integer>25</integer>
+			<key>uuidString</key>
+			<string>39319B92-F3FB-46BF-B640-7C9BD3A6C402</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>bbed</string>
+			<key>abbreviationMode</key>
+			<integer>2</integer>
+			<key>creationDate</key>
+			<date>2009-02-09T15:09:12Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string></string>
+			<key>lastUsed</key>
+			<date>2009-02-09T15:09:21Z</date>
+			<key>modificationDate</key>
+			<date>2009-10-23T13:27:28Z</date>
+			<key>plainText</key>
+			<string>bedankt voor je bericht!</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>1</integer>
+			<key>uuidString</key>
+			<string>18BFEE07-F6C1-4AD4-81B6-CDE96AB15417</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>hiii</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2014-12-03T14:25:07Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string></string>
+			<key>lastUsed</key>
+			<date>2014-12-11T23:15:23Z</date>
+			<key>modificationDate</key>
+			<date>2014-12-05T08:32:26Z</date>
+			<key>plainText</key>
+			<string>#!/usr/bin/env python
+
+import random, sys
+
+# define our list of candidate snippets
+s = ["Hey","Hoi", "Ha", "Hallo"]
+
+# select one at random and write it to STDOUT
+sys.stdout.write(random.choice(s) + " %filltext:name=Naam?:default={!firstname_fix}%,")</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>94BEB003-7BDC-4276-8F4B-05C183658497</string>
+		</dict>
+	</array>
+</dict>
+</plist>

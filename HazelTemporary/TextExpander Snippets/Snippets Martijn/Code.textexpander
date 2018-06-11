@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>groupInfo</key>
+	<dict>
+		<key>expandAfterMode</key>
+		<integer>2</integer>
+		<key>groupName</key>
+		<string>Code</string>
+	</dict>
+	<key>snippetsTE2</key>
+	<array>
+		<dict>
+			<key>abbreviation</key>
+			<string>nowplaying</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2014-03-25T12:26:41Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string></string>
+			<key>lastUsed</key>
+			<date>2014-05-22T14:01:46Z</date>
+			<key>modificationDate</key>
+			<date>2014-03-25T12:28:13Z</date>
+			<key>plainText</key>
+			<string>-- Now Playing for TextExpander
+-- by Jake Bilbrey http://jakebilbrey.com
+--
+-- Checks iTunes, Rdio, and Spotify to
+-- determine the artist and track you
+-- are listening to and then prints it.
+ 
+on isRunning(appName)
+	tell application "System Events"
+		return (count of (every process whose bundle identifier contains appName))
+	end tell
+end isRunning
+  
+on iTunesPlaying()
+	if (isRunning("iTunes") &gt; 1) then
+		-- Assumes you have not disabled iTunes Helper
+		tell application "iTunes"
+			if player state is playing then
+				set trackName to (get name of current track)
+				set ispodcast to (get podcast of current track)
+				-- Checks to see if you are listening to a podcast
+				if ispodcast is true then
+					set artistName to (get album of current track)
+				else
+					set artistName to (get artist of current track)
+				end if
+				return (artistName &amp; " - " &amp; trackName) as text
+			end if
+		end tell
+	end if
+end iTunesPlaying
+ 
+on spotifyPlaying()
+	if (isRunning("Spotify") &gt; 0) then
+		tell application "Spotify"
+			if player state is playing then
+				set trackName to (get name of current track)
+				set artistName to (get artist of current track)
+				return (artistName &amp; " - " &amp; trackName) as text
+			end if
+		end tell
+	end if
+end spotifyPlaying
+ 
+if (count of (iTunesPlaying() as text)) &gt; 0 then
+	return (iTunesPlaying() as text)
+else if (count of (spotifyPlaying() as text)) &gt; 0 then
+	return (spotifyPlaying() as text)
+else
+	return "silence"
+end if</string>
+			<key>snippetType</key>
+			<integer>2</integer>
+			<key>useCount</key>
+			<integer>1</integer>
+			<key>uuidString</key>
+			<string>91702DFA-F92B-49EB-893C-4636804BE3EA</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>xurlencode</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2014-01-27T14:52:57Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>URL Encode string</string>
+			<key>lastUsed</key>
+			<date>2015-03-03T12:20:49Z</date>
+			<key>modificationDate</key>
+			<date>2015-03-03T12:20:59Z</date>
+			<key>plainText</key>
+			<string>#!/usr/bin/env python
+import urllib
+import sys
+f = u'%filltext:name=field 1%'
+#use stdout instead of print to prevent newline
+sys.stdout.write(urllib.quote_plus(f))</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>8393D7B2-28DC-409A-B062-AB78EC16883F</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>wpplugin</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2013-11-12T19:07:58Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string></string>
+			<key>lastUsed</key>
+			<date>2015-02-06T14:34:44Z</date>
+			<key>modificationDate</key>
+			<date>2015-02-06T14:35:10Z</date>
+			<key>plainText</key>
+			<string>&lt;?php
+/*
+Plugin Name: %filltext:name=Plugin name?%
+Description: %fillarea:name=Plugin description%
+Version: 0.1
+Author: Martijn Engler
+Author URI: https://strategischlui.nl/
+*/</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>5</integer>
+			<key>uuidString</key>
+			<string>AA148E6E-C6C8-4C02-BBEE-3BD35890A7DA</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>;mcurl</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2013-09-02T18:39:53Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>Current URL Markdown</string>
+			<key>lastUsed</key>
+			<date>2013-09-02T18:44:10Z</date>
+			<key>modificationDate</key>
+			<date>2013-09-02T18:43:50Z</date>
+			<key>plainText</key>
+			<string>tell application "Google Chrome"	set my_url to the URL of the active tab of the front window	set my_title to the title of the active tab of the front window	set return_text to "[" &amp; my_title &amp; "](" &amp; my_url &amp; ")"	return_textend tell</string>
+			<key>snippetType</key>
+			<integer>2</integer>
+			<key>useCount</key>
+			<integer>2</integer>
+			<key>uuidString</key>
+			<string>C58DCC3B-CC25-4B2C-AF45-D2DAD575A81E</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>;;sqluser</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2013-07-30T14:31:41Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string></string>
+			<key>lastUsed</key>
+			<date>2015-02-13T09:14:40Z</date>
+			<key>modificationDate</key>
+			<date>2015-01-09T09:08:22Z</date>
+			<key>plainText</key>
+			<string>%fillpart:name=create_db:default=yes%CREATE DATABASE %filltext:name=databasename%;%fillpartend%
+GRANT ALL PRIVILEGES ON %filltext:name=databasename%.* To '%filltext:name=username%'@'%filltext:name=hostname:default=localhost%' IDENTIFIED BY '%filltext:name=password%';
+FLUSH PRIVILEGES;
+</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>3</integer>
+			<key>uuidString</key>
+			<string>59D166CA-8F76-4F53-BFF0-E6DABB3C7D74</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>;htk</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2012-08-28T20:38:22Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string></string>
+			<key>lastUsed</key>
+			<date>2012-08-28T20:40:35Z</date>
+			<key>modificationDate</key>
+			<date>2012-08-28T20:40:17Z</date>
+			<key>plainText</key>
+			<string>&lt;tr&gt;
+	&lt;td&gt;%filltext:name=Sneltoets?%&lt;/td&gt;
+	&lt;td&gt;%fillarea:name=Uitleg%&lt;/td&gt;
+&lt;/tr&gt;</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>3B0F353E-2C9F-4A15-B311-BAB16F94AD3F</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>derror</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2012-08-24T13:52:59Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string></string>
+			<key>lastUsed</key>
+			<date>2012-08-24T13:56:09Z</date>
+			<key>modificationDate</key>
+			<date>2012-08-24T13:54:57Z</date>
+			<key>plainText</key>
+			<string>data-error="U heeft geen %fillpopup:name=Enkel- of meervoud?:Geldig:Geldige% %filltext:name=Veldnaam% opgegeven"</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>5</integer>
+			<key>uuidString</key>
+			<string>B31C7ED1-DB94-4C7A-8E68-5B68A431D8DA</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>@cmd</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2011-03-31T15:34:56Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string></string>
+			<key>lastUsed</key>
+			<date>2011-12-27T13:38:10Z</date>
+			<key>modificationDate</key>
+			<date>2011-12-27T13:38:21Z</date>
+			<key>plainText</key>
+			<string>&lt;kbd&gt;cmd () + %|&lt;/kbd&gt;</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>4</integer>
+			<key>uuidString</key>
+			<string>C6D149CC-DA9A-4662-9CD6-11913A4924DD</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>slgroen</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2014-08-26T12:59:56Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string></string>
+			<key>modificationDate</key>
+			<date>2014-08-26T12:59:56Z</date>
+			<key>plainText</key>
+			<string>#538932</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>1D8CE6CF-ADBF-412E-A1B9-890C7F74E029</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>slpaars</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2014-08-26T13:00:10Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string></string>
+			<key>lastUsed</key>
+			<date>2015-02-27T10:26:50Z</date>
+			<key>modificationDate</key>
+			<date>2014-08-26T13:00:10Z</date>
+			<key>plainText</key>
+			<string>#682458</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>2</integer>
+			<key>uuidString</key>
+			<string>50DB097B-E852-4681-9A7C-72F148FAEFD4</string>
+		</dict>
+	</array>
+</dict>
+</plist>

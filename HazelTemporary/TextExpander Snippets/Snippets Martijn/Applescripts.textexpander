@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>groupInfo</key>
+	<dict>
+		<key>expandAfterMode</key>
+		<integer>0</integer>
+		<key>groupName</key>
+		<string>Applescripts</string>
+	</dict>
+	<key>snippetsTE2</key>
+	<array>
+		<dict>
+			<key>abbreviation</key>
+			<string>%music%</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2009-06-22T22:04:27Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>Current track</string>
+			<key>lastUsed</key>
+			<date>2011-12-08T16:19:19Z</date>
+			<key>modificationDate</key>
+			<date>2009-09-13T09:47:05Z</date>
+			<key>plainText</key>
+			<string>tell application "iTunes"	try		if not (exists current track) then return		set this_artist to (get artist of current track)		set this_track to (get name of current track)		set this_album to (get album of current track)	end try	return "Now playing: " &amp; this_artist &amp; " - " &amp; this_track &amp; " (Album: " &amp; this_album &amp; ")"end tell</string>
+			<key>snippetType</key>
+			<integer>2</integer>
+			<key>useCount</key>
+			<integer>61</integer>
+			<key>uuidString</key>
+			<string>13084979-FECD-4C16-A9B6-220C07C4E02D</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>;;lmg</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2012-09-28T15:35:49Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>Let Me Google That For You</string>
+			<key>lastUsed</key>
+			<date>2012-10-04T12:18:47Z</date>
+			<key>modificationDate</key>
+			<date>2015-03-03T12:14:27Z</date>
+			<key>plainText</key>
+			<string>#!/usr/bin/env python
+
+import sys
+from urllib import urlencode
+
+param = '%clipboard'.strip()
+rooturl = "http://lmgtfy.com/?"
+try:
+	qs = urlencode({'q':param})
+except:
+	qs = ''
+finally:
+	sys.stdout.write("%s%s" % (rooturl, qs))</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>useCount</key>
+			<integer>3</integer>
+			<key>uuidString</key>
+			<string>A8A71B55-597D-44C9-8BA0-B1AE8E722105</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>fdate</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2014-07-02T06:56:03Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string></string>
+			<key>lastUsed</key>
+			<date>2014-12-22T21:00:51Z</date>
+			<key>modificationDate</key>
+			<date>2014-07-02T06:56:52Z</date>
+			<key>plainText</key>
+			<string>%Y-%m-%d</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>5</integer>
+			<key>uuidString</key>
+			<string>CFB70E6A-A166-45BF-86E8-D35846C5E27D</string>
+		</dict>
+	</array>
+</dict>
+</plist>

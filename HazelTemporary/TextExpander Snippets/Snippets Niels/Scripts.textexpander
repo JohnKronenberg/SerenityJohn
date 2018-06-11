@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>groupInfo</key>
+	<dict>
+		<key>expandAfterMode</key>
+		<integer>0</integer>
+		<key>groupName</key>
+		<string>Scripts</string>
+	</dict>
+	<key>snippetsTE2</key>
+	<array>
+		<dict>
+			<key>abbreviation</key>
+			<string>/bitly</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2008-10-27T21:12:34Z</date>
+			<key>flags</key>
+			<integer>1</integer>
+			<key>label</key>
+			<string>Create bit.ly shortened URL</string>
+			<key>lastUsed</key>
+			<date>2010-05-06T18:16:50Z</date>
+			<key>modificationDate</key>
+			<date>2010-05-06T18:20:48Z</date>
+			<key>plainText</key>
+			<string>set my_Login to ""
+set my_API_Key to ""
+
+if my_API_Key is equal to "" then
+return "bit.ly now requires you to have an account and to specify your login and API key. Please set these at the top of the /bitly snippet. To make the Internet Productivity Group editable, select it and choose File -&gt; Duplicate, then delete the original read-only group."
+end
+set the ClipURL to (the clipboard as string)ignoring case	if ((characters 1 through 4 of ClipURL as string) is not "http") then		return "Malformed URL."	else		set the EncodedClipURL to urlencode(ClipURL) of me		set curlCMD to ¬			"curl --stderr /dev/null \"http://api.bit.ly/v3/shorten?format=txt&amp;login=" &amp; my_Login &amp; "&amp;apiKey=" &amp; my_API_Key &amp; "&amp;uri=" &amp; EncodedClipURL &amp; "\""				-- Run the script and get the result:		set tinyURL to (do shell script curlCMD)				return tinyURL	end ifend ignoringon urlencode(theText)	set theTextEnc to ""	repeat with eachChar in characters of theText		set useChar to eachChar		set eachCharNum to ASCII number of eachChar		if eachCharNum = 32 then			set useChar to "+"		else if (eachCharNum ≠ 42) and (eachCharNum ≠ 95) and (eachCharNum &lt; 45 or eachCharNum &gt; 46) and (eachCharNum &lt; 48 or eachCharNum &gt; 57) and (eachCharNum &lt; 65 or eachCharNum &gt; 90) and (eachCharNum &lt; 97 or eachCharNum &gt; 122) then			set firstDig to round (eachCharNum / 16) rounding down			set secondDig to eachCharNum mod 16			if firstDig &gt; 9 then				set aNum to firstDig + 55				set firstDig to ASCII character aNum			end if			if secondDig &gt; 9 then				set aNum to secondDig + 55				set secondDig to ASCII character aNum			end if			set numHex to ("%" &amp; (firstDig as string) &amp; (secondDig as string)) as string			set useChar to numHex		end if		set theTextEnc to theTextEnc &amp; useChar as string	end repeat	return theTextEncend urlencode</string>
+			<key>snippetType</key>
+			<integer>2</integer>
+			<key>useCount</key>
+			<integer>23</integer>
+			<key>uuidString</key>
+			<string>CFF2FFF3-D700-4D39-8495-A5BCEE12553D</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>/compinfo</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2013-03-17T19:38:36Z</date>
+			<key>extraInfo</key>
+			<dict>
+				<key>RTF</key>
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf1343\cocoasubrtf160
+{\fonttbl\f0\fnil\fcharset0 LucidaGrande;}
+{\colortbl;\red255\green255\blue255;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\f0\fs24 \cf0 Model: %snippet:/modelid%\
+OS Version: %snippet:/sysvers%\
+Processor: %snippet:/procspd% %snippet:/procname%\
+Graphics: %snippet:/grchip% %snippet:/grvram%\
+Storage: %snippet:/stormedia%\
+Memory: %snippet:/ram%}</string>
+			</dict>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>computer info</string>
+			<key>lastUsed</key>
+			<date>2015-02-19T14:59:30Z</date>
+			<key>modificationDate</key>
+			<date>2014-12-05T08:24:17Z</date>
+			<key>plainText</key>
+			<string>Model: %snippet:/modelid%
+OS Version: %snippet:/sysvers%
+Processor: %snippet:/procspd% %snippet:/procname%
+Graphics: %snippet:/grchip% %snippet:/grvram%
+Storage: %snippet:/stormedia%
+Memory: %snippet:/ram%</string>
+			<key>richText</key>
+			<data>
+			BAtzdHJlYW10eXBlZIHoA4QBQISEhBJOU0F0dHJpYnV0ZWRTdHJp
+			bmcAhIQITlNPYmplY3QAhZKEhIQITlNTdHJpbmcBlIQBK4HNAE1v
+			ZGVsOiAlc25pcHBldDovbW9kZWxpZCUKT1MgVmVyc2lvbjogJXNu
+			aXBwZXQ6L3N5c3ZlcnMlClByb2Nlc3NvcjogJXNuaXBwZXQ6L3By
+			b2NzcGQlICVzbmlwcGV0Oi9wcm9jbmFtZSUKR3JhcGhpY3M6ICVz
+			bmlwcGV0Oi9ncmNoaXAlICVzbmlwcGV0Oi9ncnZyYW0lClN0b3Jh
+			Z2U6ICVzbmlwcGV0Oi9zdG9ybWVkaWElCk1lbW9yeTogJXNuaXBw
+			ZXQ6L3JhbSWGhAJpSQGBzQCShISEDE5TRGljdGlvbmFyeQCUhAFp
+			ApKElpYQTlNQYXJhZ3JhcGhTdHlsZYaShISEEE5TUGFyYWdyYXBo
+			U3R5bGUAlIQEQ0NAUwAAhISEB05TQXJyYXkAlJkMkoSEhAlOU1Rl
+			eHRUYWIAlIQCQ2YAHIaShJ+eADiGkoSfngBUhpKEn54AcIaShJ+e
+			AIGMAIaShJ+eAIGoAIaShJ+eAIHEAIaShJ+eAIHgAIaShJ+eAIH8
+			AIaShJ+eAIEYAYaShJ+eAIE0AYaShJ+eAIFQAYaGgQAIhARbMWZd
+			g83MTD2GkoSWlgZOU0ZvbnSGkoSEhAZOU0ZvbnQelJkkhAVbMzZj
+			XQYAAAAaAAAA//5MAHUAYwBpAGQAYQBHAHIAYQBuAGQAZQAAAIQB
+			ZgyEAWMAowGjAKMAhoaG
+			</data>
+			<key>snippetType</key>
+			<integer>1</integer>
+			<key>useCount</key>
+			<integer>5</integer>
+			<key>uuidString</key>
+			<string>7E07932E-F72A-4A7D-940D-AC1EF1A539DC</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>/grchip</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2013-03-17T19:12:59Z</date>
+			<key>extraInfo</key>
+			<dict/>
+			<key>flags</key>
+			<integer>2</integer>
+			<key>label</key>
+			<string>graphics chipset</string>
+			<key>lastUsed</key>
+			<date>2013-03-17T21:33:44Z</date>
+			<key>modificationDate</key>
+			<date>2014-12-05T08:20:48Z</date>
+			<key>plainText</key>
+			<string>#!/bin/bash
+system_profiler SPDisplaysDataType | tr -dc '[:print:]\n' | awk -F: '/Chipset Model/ {gsub(/^[ \t]+|[ \n]+$/, "", $2); printf "%s", $2}'</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>C51E1ABD-3052-44C3-AEC6-4C74EB9876A6</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>/grvram</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2013-03-17T19:12:59Z</date>
+			<key>extraInfo</key>
+			<dict/>
+			<key>flags</key>
+			<integer>2</integer>
+			<key>label</key>
+			<string>graphics vram</string>
+			<key>lastUsed</key>
+			<date>2013-03-17T19:36:54Z</date>
+			<key>modificationDate</key>
+			<date>2014-12-05T08:20:52Z</date>
+			<key>plainText</key>
+			<string>#!/bin/bash
+system_profiler SPDisplaysDataType | awk -F: '/VRAM/ {gsub(/^[ \t]+|[ \n]+$/, "", $2); printf "%s", $2}'</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>C2C814CC-1200-4144-AAAF-F8E880B487D5</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>/ram</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2013-03-17T19:12:59Z</date>
+			<key>extraInfo</key>
+			<dict/>
+			<key>flags</key>
+			<integer>2</integer>
+			<key>label</key>
+			<string>memory</string>
+			<key>lastUsed</key>
+			<date>2013-03-17T19:16:06Z</date>
+			<key>modificationDate</key>
+			<date>2014-12-05T08:21:05Z</date>
+			<key>plainText</key>
+			<string>#!/bin/bash
+system_profiler SPHardwareDataType | awk -F: '/Memory/ {gsub(/^[ \t]+|[ \n]+$/, "", $2); printf "%s", $2}'</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>00CB86A7-BC2B-4C82-BF66-AD4476E3ACAD</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>/modelid</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2013-03-17T19:01:50Z</date>
+			<key>extraInfo</key>
+			<dict/>
+			<key>flags</key>
+			<integer>2</integer>
+			<key>label</key>
+			<string>model identifier</string>
+			<key>lastUsed</key>
+			<date>2013-03-17T19:02:40Z</date>
+			<key>modificationDate</key>
+			<date>2014-12-05T08:21:09Z</date>
+			<key>plainText</key>
+			<string>#!/bin/bash
+system_profiler SPHardwareDataType | awk -F: '/Model Identifier/ {gsub(/^[ \t]+|[ \n]+$/, "", $2); printf "%s", $2}'</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>9CEB6093-1B89-4843-AE59-77C3993D9315</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>/procname</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2013-03-17T19:12:59Z</date>
+			<key>extraInfo</key>
+			<dict/>
+			<key>flags</key>
+			<integer>2</integer>
+			<key>label</key>
+			<string>processor name</string>
+			<key>lastUsed</key>
+			<date>2013-03-17T19:14:18Z</date>
+			<key>modificationDate</key>
+			<date>2014-12-05T08:21:13Z</date>
+			<key>plainText</key>
+			<string>#!/bin/bash
+system_profiler SPHardwareDataType | awk -F: '/Processor Name/ {gsub(/^[ \t]+|[ \n]+$/, "", $2); printf "%s", $2}'</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>76439C8C-E44F-463E-BCB7-B9C41E841A1B</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>/procspd</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2013-03-17T19:12:59Z</date>
+			<key>extraInfo</key>
+			<dict/>
+			<key>flags</key>
+			<integer>2</integer>
+			<key>label</key>
+			<string>processor speed</string>
+			<key>lastUsed</key>
+			<date>2013-03-17T20:56:29Z</date>
+			<key>modificationDate</key>
+			<date>2014-12-05T08:21:19Z</date>
+			<key>plainText</key>
+			<string>#!/bin/bash
+system_profiler SPHardwareDataType | tr -dc '[:print:]\n' | awk -F: '/Processor Speed/ {gsub(/^[ \t]+|[ \n]+$/, "", $2); printf "%s", $2}'</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>7B6D2366-22AD-4E0E-8E52-B08DBE96EDB7</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>/stormedia</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2013-03-17T19:12:59Z</date>
+			<key>extraInfo</key>
+			<dict/>
+			<key>flags</key>
+			<integer>2</integer>
+			<key>label</key>
+			<string>media name</string>
+			<key>lastUsed</key>
+			<date>2013-03-17T19:31:27Z</date>
+			<key>modificationDate</key>
+			<date>2014-12-05T08:21:23Z</date>
+			<key>plainText</key>
+			<string>#!/bin/bash
+system_profiler SPStorageDataType | awk -F: '/Media Name/ {gsub(/^[ \t]+|[ \n]+$/, "", $2); printf "%s", $2}'</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>151CABC7-EA77-4A4C-9039-C362724F5D9C</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>/sysvers</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2013-03-17T18:44:17Z</date>
+			<key>extraInfo</key>
+			<dict/>
+			<key>flags</key>
+			<integer>2</integer>
+			<key>label</key>
+			<string>system version</string>
+			<key>lastUsed</key>
+			<date>2015-01-26T17:13:20Z</date>
+			<key>modificationDate</key>
+			<date>2014-12-05T08:21:27Z</date>
+			<key>plainText</key>
+			<string>#!/bin/bash
+system_profiler SPSoftwareDataType | awk -F: '/System Version/ {gsub(/^[ \t]+|[ \n]+$/, "", $2); printf "%s", $2}'</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>useCount</key>
+			<integer>1</integer>
+			<key>uuidString</key>
+			<string>307DA799-60C2-4DDB-AA39-7ADD88C38157</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>/--</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2010-04-30T03:59:07Z</date>
+			<key>flags</key>
+			<integer>2</integer>
+			<key>label</key>
+			<string>Hyphenate clipboard</string>
+			<key>lastUsed</key>
+			<date>2015-03-03T10:29:16Z</date>
+			<key>modificationDate</key>
+			<date>2014-12-05T09:21:25Z</date>
+			<key>plainText</key>
+			<string>#!/usr/bin/env ruby
+
+clip = %x{__CF_USER_TEXT_ENCODING=$UID:0x8000100:0x8000100 pbpaste}
+print clip.gsub(/\b\s\b/,'-')</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>useCount</key>
+			<integer>33</integer>
+			<key>uuidString</key>
+			<string>C4FB4FCC-3556-491D-BA52-C0454CDC5021</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>/hi</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2014-12-05T08:53:33Z</date>
+			<key>flags</key>
+			<integer>1</integer>
+			<key>label</key>
+			<string></string>
+			<key>lastUsed</key>
+			<date>2015-02-23T15:52:58Z</date>
+			<key>modificationDate</key>
+			<date>2014-12-05T08:55:00Z</date>
+			<key>plainText</key>
+			<string>-- Adjust greetingsList values to your preferred greeting
+set greetingsList to {"Hi", "Hé", "Ha", "Hoi", "Hallo"}
+set listLength to count greetingsList
+set randomNumber to (random number from 1 to listLength)
+set selectedGreeting to item randomNumber of greetingsList
+return selectedGreeting</string>
+			<key>snippetType</key>
+			<integer>2</integer>
+			<key>useCount</key>
+			<integer>32</integer>
+			<key>uuidString</key>
+			<string>A55D1076-48F6-4C3B-96AE-B8F19431CB34</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>/typo</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2014-12-05T08:55:02Z</date>
+			<key>flags</key>
+			<integer>1</integer>
+			<key>label</key>
+			<string></string>
+			<key>modificationDate</key>
+			<date>2014-12-05T08:55:39Z</date>
+			<key>plainText</key>
+			<string>-- Adjust greetingsList values to your preferred greeting
+set greetingsList to {"Hi", "Hé", "Ha", "Hoi", "Hallo"}
+set listLength to count greetingsList
+set randomNumber to (random number from 1 to listLength)
+set selectedGreeting to item randomNumber of greetingsList
+return selectedGreeting</string>
+			<key>snippetType</key>
+			<integer>2</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>64CEB9B2-896F-4EC7-9249-A45D43CF4FC1</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>/curl</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2012-11-04T18:06:35Z</date>
+			<key>flags</key>
+			<integer>1</integer>
+			<key>label</key>
+			<string>Current Chrome url</string>
+			<key>lastUsed</key>
+			<date>2013-05-20T12:01:38Z</date>
+			<key>modificationDate</key>
+			<date>2013-04-28T14:46:50Z</date>
+			<key>plainText</key>
+			<string>tell application "Google Chrome" to return URL of active tab of window 1</string>
+			<key>snippetType</key>
+			<integer>2</integer>
+			<key>useCount</key>
+			<integer>5</integer>
+			<key>uuidString</key>
+			<string>662B6F80-2E5A-4747-91A9-18D3BF584B25</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>/fp</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2013-02-09T09:14:11Z</date>
+			<key>flags</key>
+			<integer>1</integer>
+			<key>label</key>
+			<string>Front Finder Window Path</string>
+			<key>lastUsed</key>
+			<date>2015-02-03T13:49:48Z</date>
+			<key>modificationDate</key>
+			<date>2013-04-28T14:46:47Z</date>
+			<key>plainText</key>
+			<string>-- credit to Dr. Drang &lt;http://www.leancrew.com/all-this/2013/01/textexpander-posix-paths-and-forgetfulness/&gt;
+tell application "Finder" to get quoted form of POSIX path of (target of front Finder window as text)</string>
+			<key>snippetType</key>
+			<integer>2</integer>
+			<key>useCount</key>
+			<integer>8</integer>
+			<key>uuidString</key>
+			<string>9739F9EE-247A-4A79-8413-1053C797939E</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>;c</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2014-12-10T15:40:29Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>Clipboard zonder opmaak</string>
+			<key>lastUsed</key>
+			<date>2015-02-19T15:31:20Z</date>
+			<key>modificationDate</key>
+			<date>2014-12-10T15:41:21Z</date>
+			<key>plainText</key>
+			<string>%clipboard</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>3</integer>
+			<key>uuidString</key>
+			<string>1010CB73-B7CD-448D-800E-AE07577DDED4</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>/os</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2015-02-19T15:00:53Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string></string>
+			<key>modificationDate</key>
+			<date>2015-02-19T15:01:09Z</date>
+			<key>plainText</key>
+			<string>%snippet:/sysvers%</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>B5561734-1C76-4CEE-913C-06C54963BF93</string>
+		</dict>
+	</array>
+</dict>
+</plist>

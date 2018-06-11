@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>groupInfo</key>
+	<dict>
+		<key>expandAfterMode</key>
+		<integer>2</integer>
+		<key>groupName</key>
+		<string>Always expand (don't wait for whitespace)</string>
+	</dict>
+	<key>snippetsTE2</key>
+	<array>
+		<dict>
+			<key>abbreviation</key>
+			<string>;xxx</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2014-01-02T15:49:45Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>XXX comment marker</string>
+			<key>lastUsed</key>
+			<date>2014-10-22T17:03:26Z</date>
+			<key>modificationDate</key>
+			<date>2014-01-02T15:50:00Z</date>
+			<key>plainText</key>
+			<string>&lt;!--xxx: %| --&gt;</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>27</integer>
+			<key>uuidString</key>
+			<string>9B7D1DB5-7C15-4036-A7A0-A060DF419E91</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>  </string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2013-01-19T04:33:40Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>Double space</string>
+			<key>lastUsed</key>
+			<date>2015-03-03T12:15:29Z</date>
+			<key>modificationDate</key>
+			<date>2013-01-19T04:35:50Z</date>
+			<key>plainText</key>
+			<string>. </string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>6441</integer>
+			<key>uuidString</key>
+			<string>5F93E41C-2149-4F0F-980E-0433F56C4E51</string>
+		</dict>
+	</array>
+</dict>
+</plist>

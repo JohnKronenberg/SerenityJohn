@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>groupInfo</key>
+	<dict>
+		<key>expandAfterMode</key>
+		<integer>0</integer>
+		<key>groupName</key>
+		<string>Day One</string>
+	</dict>
+	<key>snippetsTE2</key>
+	<array>
+		<dict>
+			<key>abbreviation</key>
+			<string>xsport</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2013-08-15T21:56:59Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>Day One Workout Log</string>
+			<key>lastUsed</key>
+			<date>2013-08-20T07:20:52Z</date>
+			<key>modificationDate</key>
+			<date>2014-06-15T19:49:40Z</date>
+			<key>plainText</key>
+			<string>Workout %A, %d %B %Y
+
+Gelopen? %fillpopup:name=Gelopen?:default=Ja:Nee%
+Afstand: %filltext:name=Afstand (km):width=2%
+Tijd: %filltext:name=Tijd? (minuten):width=3%
+Buddy: %filltext:name=Buddy?:default=Niels%
+
+Overige workout:
+
+%fillarea:name=Andere dingen gedaan?%
+
+Overige opmerkingen:
+
+%fillarea:name=Nog andere opmerkingen?%</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>61B19E4F-6A56-42EE-A5A6-70FDB3E7196B</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>powerquestions</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2013-12-11T22:28:40Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string></string>
+			<key>lastUsed</key>
+			<date>2014-01-07T20:07:55Z</date>
+			<key>modificationDate</key>
+			<date>2013-12-11T22:30:40Z</date>
+			<key>plainText</key>
+			<string>**What have I given today?**
+
+%|
+
+**What did I learn today?**
+
+
+
+**How has today added to the quality of my life?**
+
+
+
+**What have I done today that "future Martijn" wil thank me for?**</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>10</integer>
+			<key>uuidString</key>
+			<string>0996C011-6D8E-40BD-A277-24B107CBCC1F</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>dayend</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2013-09-02T13:32:35Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string></string>
+			<key>lastUsed</key>
+			<date>2013-09-02T13:34:57Z</date>
+			<key>modificationDate</key>
+			<date>2013-09-02T13:33:20Z</date>
+			<key>plainText</key>
+			<string>Tomorrow, I’m going to %filltext:name=Tomorrow's Goal%.
+To be ready, I need to %filltext:name=Preparation required%.
+I will remember %filltext:name=Remember tomorrow:default=my%.
+The random thoughts that just filled my head are %fillarea:name=Dump it here%.
+%fillpart:name=Also Remember:default=yes%Also remember to %filltext:name=More to remember for tomorrow% %fillpartend%</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>1</integer>
+			<key>uuidString</key>
+			<string>D1CA60D3-1231-4A1C-882B-0136CD11675C</string>
+		</dict>
+	</array>
+</dict>
+</plist>
